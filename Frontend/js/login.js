@@ -7,21 +7,21 @@ $(function(){
     });
     let base_url = 'http://localhost:3000/';
 
-    $("#btn-login").on('click', function (e) {
+    $("#btnLogin").on('click', function (e) {
         e.preventDefault();
 
-        if($("#username").val()==""){
+        if($("#logname").val()==""){
             alert("Username is empty");
         }
 
-        if($("#password").val()==""){
+        if($("#pswd").val()==""){
             alert("Password is empty");
         }
 
-        if($("#password").val()!==""&& $("#username").val()!==""){
+        if($("#pwd").val()!==""&& $("#logname").val()!==""){
         let user = {
-            username: $("#username").val(),
-            password: $("#password").val(),
+            username: $("#logname").val(),
+            password: $("#pswd").val(),
             
         };
         $.ajax({
@@ -30,7 +30,9 @@ $(function(){
             data: user,
             success: function (user) {
                 if(user.admin==true){
-                 alert("Welcome admin")
+                 alert("Welcome admin");
+                 window.location.href='/dashboard.html';
+
                 }
 
                 else{

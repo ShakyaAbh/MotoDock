@@ -10,7 +10,6 @@ var authenticate = require('./authenticate');
 var verify = require('./verify');
 var cors = require('cors');
 
-const testurl = 'mongodb://localhost:27017/vehicletest';
 const url = 'mongodb://localhost:27017/mydb';
 const connect = mongoose.connect(url, {
     useNewUrlParser: true,
@@ -21,9 +20,9 @@ connect.then((db) => {
     console.log("Connected to mongodb server");
 }, (err) => { console.log(err); });
 
+var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-
-
+var partsRouter = require('./routes/parts');
 
 
 var app = express();
@@ -51,13 +50,11 @@ app.use('*', cors({
     credentials: true
 }));
 
-
+app.use('/', indexRouter);
 app.use('/users', usersRouter);
-// app.use(authenticate);
-// app.use(verify.user);
+app.use(verify.user);
 
-
-
-
+app.use(verify.admin);
+app.use('/parts', partsRouter);
 
 module.exports = app;
