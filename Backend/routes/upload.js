@@ -20,7 +20,7 @@ var imageFileFilter = (req, file, cb) => {
 var upload = multer({
     storage: storage,
     fileFilter: imageFileFilter,
-    limits: { fileSize: 1000000 }
+    limits: { fileSize: 1000000000000000 }
 });
 
 var uploadRouter = express.Router();
