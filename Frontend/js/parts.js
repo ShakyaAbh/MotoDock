@@ -71,7 +71,7 @@ $(function(){
                 '</div>'+
 
                 '<div class="footer">'+
-                    '<a href="#" class="Cbtn Cbtn-primary" data-toggle="modal" data-target="#myModal"> View </a>'+
+                    '<a href="#" class="Cbtn Cbtn-primary details" part_id='+part._id+' > View </a>'+
                 '</div>'+
             '</div>'+
         '</div>'+
@@ -94,9 +94,58 @@ $(function(){
             alert('Something went wrong!');
         }
     });
-   
+
+
+    viewBody.on('click', '.details', function () {
+
+     
+        $.ajax({
+          type: 'GET',
+          url: base_url + 'parts/' + $(this).attr('part_id'),
+          success: function (part) {
+            $("#pid").val(part._id);
+            $("#iname").val(part.name);
+            $("#imodel").val(part.modelNumber);
+            $("#iedate").val(part.entryDate);
+            $("#iqty").val(part.quantity);
+            $("#idetails").val(part.details);
+            $("#icompany").val(part.company);
+
+
+
+            $('#myModal').modal('show');
+          }
+      })
+      });
+
+
+      $("#edit-item").on('click', function(e){
+        e.preventDefault();
+        var item_id= $('#pid').val();
+        let part = {
+            name: $("#iname").val(),
+            modelNumber: $("#imodel").val(),
+            entryDate: $("#iedate").val(),
+            quantity: $("#iqty").val(),
+            details: $("#idetails").val(),
+            company: $("#icompany").val(),
+            
+        };
+        $.ajax({
+            type: 'PUT',
+            url: base_url + 'parts/'+ item_id,
+            data: part,
+            success: function (part) {
+                alert("Updated Successfully");
+                window.location.href='/spareParts.html';
+            
+            },
+            error: function () {
+                alert("Fill all the form fields!");
+            }
+        });
+    });
 
 
 
 });
-

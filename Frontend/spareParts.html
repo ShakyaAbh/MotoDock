@@ -193,15 +193,30 @@
 
                     <!-- Modal body -->
                     <div class="modal-body">
-                        <label for="">Parts Name: </label>
-                        <input type="text" class="form-control" id="item-name" placeholder="Item Name" />
-                        <br />
-                        
-                        <input type="text" class="form-control" name="desc" id="desc" placeholder="Description" />
-                        <br />
+                        <label> Part Name </label>
+                                        <input type="text" class="form-control" id="iname"
+                                             />
+                                        <br />
+                                        <input type="hidden" class="form-control" name="model" id="pid"/>
 
-                        <input type="currency" class="form-control" name="number" id="price" placeholder="Price" />
-                        <br>
+                                        <label> Model Number </label>
+                                        <input type="text" class="form-control" name="model" id="imodel"/>
+                                        <br />
+
+                                        <label> Entry Date: </label>
+                                        <input type="date" class="form-control" name="number" id="iedate"/>
+                                        <br>
+
+                                        <label> Quantity </label>
+                                        <input type="number" class="form-control" name="number" id="iqty"/>
+                                        <br>
+
+                                        <label> Other Details: </label>
+                                        <input type="text" class="form-control" name="desc" id="idetails"/>
+                                        <br>
+
+                                        <label> Company Name</label>
+                                        <input type="text" class="form-control" name="company" id="icompany"/>
                     </div>
 
                     <!-- Modal footer -->
