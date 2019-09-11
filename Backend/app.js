@@ -23,6 +23,7 @@ connect.then((db) => {
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var partsRouter = require('./routes/parts');
+var uploadRouter = require('./routes/upload');
 
 
 var app = express();
@@ -52,9 +53,10 @@ app.use('*', cors({
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use(verify.user);
+//app.use(verify.user);
 
-app.use(verify.admin);
+//app.use(verify.admin);
 app.use('/parts', partsRouter);
+app.use('/upload', uploadRouter);
 
 module.exports = app;
