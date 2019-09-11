@@ -1,0 +1,23 @@
+{
+  "name": "two-wheeler-mgmt-system",
+  "version": "1.0.0",
+  "description": "-Agile Project",
+  "main": "index.js",
+  "dependencies": {
+    "cucumber": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShakyaAbh/Two-Wheeler-Mgmt-System.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShakyaAbh/Two-Wheeler-Mgmt-System/issues"
+  },
+  "homepage": "https://github.com/ShakyaAbh/Two-Wheeler-Mgmt-System#readme"
+}
