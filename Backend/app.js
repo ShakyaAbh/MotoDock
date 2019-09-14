@@ -23,6 +23,8 @@ connect.then((db) => {
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var partsRouter = require('./routes/parts');
+var mechanicsRouter = require('./routes/mechanics');
+
 var uploadRouter = require('./routes/upload');
 
 
@@ -57,6 +59,8 @@ app.use('/users', usersRouter);
 
 //app.use(verify.admin);
 app.use('/parts', partsRouter);
+app.use('/mechanics', mechanicsRouter);
+
 app.use('/upload', uploadRouter);
 
 module.exports = app;
