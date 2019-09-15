@@ -190,15 +190,18 @@
                                         <input type="text" class="form-control" name="address" id="address"/>
                                         <br>
 
-                                        <label> Contacts </label>
-                                        <input type="text" class="form-control" name="contacts" id="contacts"/>
+                                        <label> Contact </label>
+                                        <input type="text" class="form-control" name="contact" id="contact"/>
                                         <br>
 
                                         <label> Shift </label>
                                         <input type="text" class="form-control" name="shift" id="shift"/>
                                         <br>
+                                        <form  enctype="multipart/form-data" id="fileUploadForm">
+                                            <input class="form-control txt-field" type="file" name="fileToUpload" id="fileToUpload" />
+                                          </form>
 
-                                        <button type="submit" class="btn btn-primary" id="addItem">
+                                        <button type="submit" class="btn btn-primary" id="addMechanic">
                                             Add Mechanic!
                                         </button>
                                     </form>
