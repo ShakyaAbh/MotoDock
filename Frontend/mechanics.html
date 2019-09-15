@@ -1,3 +1,4 @@
+  
 <!doctype html>
 <html lang="en">
 
@@ -171,70 +172,10 @@
         </ul>
 
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="tile">
-                        <div class="wrapper">
-                            <div class="header">Event Title</div>
+            <div class="row"  id="mechanics-view">
+                
 
-                            <div class="banner-img">
-                                <img src="http://via.placeholder.com/640x360" alt="Image 1" />
-                            </div>
-
-                            <div class="footer">
-                                <a href="#" class="Cbtn Cbtn-primary" data-toggle="modal" data-target="#myModal"> View </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="tile">
-                        <div class="wrapper">
-                            <div class="header">Event Title</div>
-
-                            <div class="banner-img">
-                                <img src="http://via.placeholder.com/640x360" alt="Image 1" />
-                            </div>
-
-                            <div class="footer">
-                                <a href="#" class="Cbtn Cbtn-primary" data-toggle="modal" data-target="#myModal"> View </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="tile">
-                        <div class="wrapper">
-                            <div class="header">Event Title</div>
-
-                            <div class="banner-img">
-                                <img src="http://via.placeholder.com/640x360" alt="Image 1" />
-                            </div>
-
-                            <div class="footer">
-                                <a href="#" class="Cbtn Cbtn-primary" data-toggle="modal" data-target="#myModal">View </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="tile">
-                        <div class="wrapper">
-                            <div class="header">Event Title</div>
-
-                            <div class="banner-img">
-                                <img src="http://via.placeholder.com/640x360" alt="Image 1" />
-                            </div>
-
-                            <div class="footer">
-                                <a href="#" class="Cbtn Cbtn-primary" data-toggle="modal" data-target="#myModal"> View </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+             
             </div>
         </div>
 
@@ -246,27 +187,40 @@
 
                     <!-- Modal Header -->
                     <div class="modal-header">
-                        <h4 class="modal-title"> Parts Details </h4>
+                        <h4 class="modal-title"> Mechanics Details </h4>
                         <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
                     </div>
 
                     <!-- Modal body -->
                     <div class="modal-body">
-                        <label for="">Parts Name: </label>
-                        <input type="text" class="form-control" id="item-name" placeholder="Item Name" />
-                        <br />
-                        
-                        <input type="text" class="form-control" name="desc" id="desc" placeholder="Description" />
-                        <br />
+                        <label> First Name </label>
+                                        <input type="text" class="form-control" id="mfname"
+                                             />
+                                        <br />
+                                        <input type="hidden" class="form-control" name="model" id="mid"/>
 
-                        <input type="currency" class="form-control" name="number" id="price" placeholder="Price" />
-                        <br>
+                                        <label> Last Name </label>
+                                        <input type="text" class="form-control" name="model" id="mlname"/>
+                                        <br />
+
+                                        <label> Address </label>
+                                        <input type="date" class="form-control" name="number" id="maddress"/>
+                                        <br>
+
+                                        <label> Contact </label>
+                                        <input type="number" class="form-control" name="number" id="mcontact"/>
+                                        <br>
+
+                                        <label> Shift </label>
+                                        <input type="text" class="form-control" name="desc" id="mshift"/>
+                                        <br>
+
                     </div>
 
                     <!-- Modal footer -->
                     <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" id="edit-item">
-                              Edit Items!!
+                            <button type="button" class="btn btn-primary" id="edit-mechanic">
+                              Edit Details!!
                             </button>
                           </div>
 
@@ -279,20 +233,25 @@
             </div>
         </div>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
-    </script>
+         <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Page level plugin JavaScript-->
 
-        <script src="js/price.js"></script>
+    <script src="vendor/datatables/jquery.dataTables.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin.min.js"></script>
+
+    <script src="js/price.js"></script>
+    <script src="js/mechanics.js"></script>
+
+    <!-- Demo scripts for this page-->
 </body>
 
 </html>

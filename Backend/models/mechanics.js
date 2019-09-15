@@ -23,6 +23,10 @@ var mechanicsSchema = new Schema({
     shift: {
         type: String,
         required: true
+    },
+    image: {
+        type: String,
+        default: ''
     }
 }, {
         timestamps: true
