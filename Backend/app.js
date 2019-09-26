@@ -49,7 +49,7 @@ app.use(passport.session());
 
 
 app.use('*', cors({
-    origin: 'http://localhost:5500',
+    origin: 'http://localhost:3001',
     credentials: true
 }));
 

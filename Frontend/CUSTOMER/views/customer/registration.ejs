@@ -1,0 +1,164 @@
+
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+<head>
+    <% include ../partials/head %>  
+    <style>
+        .logButton1 {
+            color: #fff;
+        }
+
+        .logButton1:hover {
+            color: #0b1539;
+        }
+
+        .help-block {
+            font-weight: 400;
+            color: red;
+        }
+        .parsley-errors-list.filled {
+            color: red;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="/assets/twn/parsley/parsley.css">
+</head>
+<body>
+
+    <% include ../partials/loginMenu %> 
+
+<div class="notificaitionDetail" id="notificationDetails">
+</div>
+
+    
+        
+        
+            
+        
+    
+
+
+    <div class="bck">
+        <div class="registerForm">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="logBrand">
+                        <h4>Register</h4>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <form class="logPage" role="form" id="form" method="POST" enctype="multipart/form-data"
+                          data-parsley-validate=""
+                          action="">
+                        <input type="hidden" name="_token" value="o6R2Nh7afY8nLpaJK85zl4uTFlPTSBQ5EhgPm2TR">                        <div class="form-group ">
+                            <input type="text" name="full_name" class="form-control" id="fullname"
+                                   placeholder="Your Full Name" value=""
+                                   data-parsley-pattern="^(?:[A-Za-z]+[ -])*[A-Za-z]+$" data-parsley-length="[3, 30]"
+                                   required>
+                                                    </div>
+                        <div class="form-group ">
+                            <input type="number" name="mobile" class="form-control" id="mobile"
+                                   placeholder="Your Mobile Number" value=""
+                                   data-parsley-maxlength="10"
+                                   data-parsley-pattern="/(9)[0-9]{9}/" required/>
+                                                    </div>
+                        <div class="form-group ">
+                            <input type="email" name="email" class="form-control" id="email"
+                                   placeholder="Your email" value="" required/>
+                                                    </div>
+                        <div class="form-group ">
+                            <input type="password" name="password" class="form-control" id="pwd"
+                                   placeholder="Password" data-parsley-minlength="6" required/>
+                                                    </div>
+                        <div class="form-group ">
+                            <input type="text" name="user_name" class="form-control" id="username"
+                                   placeholder="Your User Name" value=""
+                                   data-parsley-pattern="^(?:[A-Za-z]+[ -])*[A-Za-z]+$" data-parsley-length="[3, 30]"
+                                   required>
+                                                    </div>
+                         <div class="form-group">
+                            <div class="g-recaptcha" data-theme="light" data-sitekey="6Lc_83sUAAAAAKQ2ApWi8HhELowvCo6t_UQSisJt"  
+                            style="transform:scale(0.85);-webkit-transform:scale(0.85);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
+                        </div>
+                        <div class="form-group registerButtom">
+                            <button type="submit"
+                                    class="btn logButton1" id="customer_register">Register
+                                <i class="fas fa-clipboard-check" style="padding-left: 10px; "></i>
+                            </button>
+                        </div>
+                        <hr>
+                        <div class="form-group already">
+                            <span style="text-align: center;">Already have an account ?</span>
+                            <a class="btn logButton1 "
+                               href="http://localhost:3001/customer/login">&nbsp;Log In
+                                <i class="fas fa-sign-in-alt" style="padding-left: 10px; "></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <% include ../partials/footer %>  
+    <!-- <script src="/assets/twn/frontend/js/registration.js"></script> -->
+
+
+
+
+
+    <script src="/assets/twn/parsley/parsley.min.js"></script>
+    <script>
+        $(function () {
+            let base_url = 'http://localhost:3000/';
+            $('#form').submit(function (event) {
+                event.preventDefault();
+                let user = {
+            fullName: $("#fullname").val(),
+            mobileNumber: $("#mobile").val(),
+            email: $("#email").val(),
+            password: $("#pwd").val(),
+            username: $("#username").val()
+  
+        };
+
+   
+
+
+        
+        $.ajax({
+            type: 'POST',
+            url: base_url + 'users/signup',
+            data: user,
+            success: function (user) {
+                   alert("User Successfully added!");
+                   location.reload();
+     
+               
+                
+            },
+            error: function (error) {
+                const a= JSON.stringify(error);
+                const b = JSON.parse(a);
+               const c= b.responseText;
+              const d= JSON.parse(c);
+              alert(d.err.message);
+
+            }
+        });
+            })
+        })
+    </script>
+
+</body>
+</html>
