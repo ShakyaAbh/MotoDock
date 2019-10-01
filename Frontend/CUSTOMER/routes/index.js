@@ -14,4 +14,8 @@ router.get('/customer/registration', function(req, res, next) {
   res.render('customer/registration', { title: 'Express' });
 });
 
+router.get('/customer/booking', function(req, res, next) {
+  res.render('customer/booking', { title: 'Express' });
+});
+
 module.exports = router;

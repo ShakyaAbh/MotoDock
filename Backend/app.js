@@ -26,6 +26,7 @@ var partsRouter = require('./routes/parts');
 var mechanicsRouter = require('./routes/mechanics');
 
 var uploadRouter = require('./routes/upload');
+var bookingRouter = require('./routes/booking');
 
 
 var app = express();
@@ -60,6 +61,7 @@ app.use('/users', usersRouter);
 //app.use(verify.admin);
 app.use('/parts', partsRouter);
 app.use('/mechanics', mechanicsRouter);
+app.use('/bookings', bookingRouter);
 
 app.use('/upload', uploadRouter);
 

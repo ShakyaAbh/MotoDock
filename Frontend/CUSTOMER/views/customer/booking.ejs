@@ -1,0 +1,420 @@
+
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Booking </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="DSmND32yjXdTi132csdZAinE6lV0ogF2Vci7qs0Y">
+            <link rel="stylesheet" type="text/css" href="https://thirdwheel.com.np/assets/twn/frontend/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald|Titillium+Web" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://thirdwheel.com.np/assets/twn/customer_dashboard/css/style.css">
+        <link rel="stylesheet" type="text/css" href="https://thirdwheel.com.np/assets/twn/customer_dashboard/css/dashboard.css">
+        <script type="text/javascript" src="https://thirdwheel.com.np/assets/twn/frontend/js/jquery-3.2.1.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="https://thirdwheel.com.np/assets/twn/parsley/parsley.css">
+    <style>
+        #block {
+            display: none;
+            width: 100%;
+        }
+        .selected{
+            display: inherit !important;
+        }
+    </style>
+    </head>
+<body>
+    <% include ../partials/loggedInMenu %>  
+
+
+<div class="notificaitionDetail" id="notificationDetails">
+</div>
+
+<% include ../partials/sidebar.ejs %>  
+
+<div class="col-lg-10 ritghPosData">
+    <div class="dashData whiteSpaceData dashBike">
+        <h5>Add New Booking</h5>
+                                                                                                                                                                                                                                                                                                <div class="userProfileBack2">
+            <form method="POST" action="https://thirdwheel.com.np/customer/bike/store" accept-charset="UTF-8" id="form" role="form" enctype="multipart/form-data"><input name="_token" type="hidden" value="DSmND32yjXdTi132csdZAinE6lV0ogF2Vci7qs0Y">
+
+            <div class="form-group row">
+
+
+
+</div>
+
+
+
+
+<div class="form-group row">
+<div class="col-md-6">
+<label for="company"> Company</label>
+<input 'kl_virtual_keyboard_secure_input="on" id="company" placeholder="Company Name" class="form-control col-xs-10 col-sm-12" name="insurence_policy" type="text">
+</div>
+
+<div class="col-md-6">
+<label for="company"> Model</label>
+<input 'kl_virtual_keyboard_secure_input="on" id="model" placeholder="Model Name" class="form-control col-xs-10 col-sm-12" autocomplete="off" name="insurence_expire_on" type="text">
+</div>
+</div>
+
+<div class="form-group row">
+<div class="col-md-6">
+<label for="company"> Registration No.</label>
+<input 'kl_virtual_keyboard_secure_input="on" id="registration" placeholder="Registration Number" class="form-control col-xs-10 col-sm-12" name="year" type="text">
+</div>
+
+<div class="col-md-6">
+    <label for="company"> Color</label>
+    <input 'kl_virtual_keyboard_secure_input="on" id="color" placeholder="Eg: Red" class="form-control col-xs-10 col-sm-12" autocomplete="off" name="insurence_expire_on" type="text">
+    </div>
+
+
+</div>   
+
+<div class="form-group row">
+    <div class="col-md-6">
+    <label for="company">Queries</label>
+    <input 'kl_virtual_keyboard_secure_input="on" id="query" placeholder="Eg: Break Sue Replacement " class="form-control col-xs-10 col-sm-12" name="year" type="text">
+    </div>
+    
+  
+    
+    
+    </div>  
+
+<div class="form-group row">
+                <div class="col-md-12">
+                    <div class="updateButton2">
+                        <button class="btn" name="submit" value="Book" type="submit"
+                                style="width: 120px;">Save
+                        </button>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+<script src="https://thirdwheel.com.np/assets/twn/js/smooth-scroll.js"></script>
+<script src="https://thirdwheel.com.np/assets/twn/js/scripts.js"></script>
+<script>
+var base_url = 'https://thirdwheel.com.np';
+window.Laravel = '{"csrfToken":"DSmND32yjXdTi132csdZAinE6lV0ogF2Vci7qs0Y"}'
+</script>
+<script>
+$(document).ready(function () {
+$('.submit').click(function () {
+var url = base_url + '/subscribe';
+var email = $('#sub-email').val();
+if (email == '') {
+    $('.email-msg').css('display', 'inline-block').html("<p>Email cannot be empty!</p>")
+        .delay(3000).fadeOut();
+    return;
+}
+if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))) {
+    $('.email-msg').css('display', 'inline-block').html("<p>Invalid Email!</p>")
+        .delay(3000).fadeOut();
+    return;
+}
+$.ajax({
+    type: "POST",
+    url: url,
+    headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+    },
+    data: {'email': email},
+    success: function (data) {
+        $('input[type=email]').val('');
+        $('.email-msg').css('display', 'inline-block').html("<p>" + data.email + "</p>")
+            .delay(3000).fadeOut();
+    },
+    error: function (data) {
+        $('input[type=email]').val('');
+        var errors = data.responseJSON;
+        $('.email-msg').css('display', 'inline-block').html("<p>" + errors['email'][0] + "</p>")
+            .delay(3000).fadeOut();
+    }
+});
+});
+});
+</script>
+<script>
+// $('div.alert').delay(4000).slideUp(100);
+$('div.alert').slideDown('slow').delay(1500).slideUp('slow');
+</script>
+
+
+<script src="https://thirdwheel.com.np/assets/twn/js/bootstrap-datetimepicker.min.js"></script>
+<script>
+$('#insurence_expire_on').datetimepicker({
+// format: 'yyyy-mm-dd',
+format: 'MM dd yyyy',
+pickTime: false,
+minView: 2
+});
+$('#year').datetimepicker({
+format: 'yyyy',
+pickTime: false,
+startView: 4,
+minView: 4,
+//restrict current year being selected
+endDate: '-1y'
+});
+
+var bikeRegistrationFlag = true;
+$('#bike_registration_no').change(function () {
+var arr = [];
+var bikeNo = $(this);
+arr = bikeNo.val().split(' ');
+if (arr.length < 4 || arr.length > 4) {
+bikeRegistrationFlag = false;
+$('#error').text('Vehicle registration number is incorrect');
+return false;
+} else {
+var zoneCode = validateIfLetter(arr[0]) ? (arr[0].length <= 3 && arr[0].length > 1) ? arr[0] : '' : '';
+var batch = greaterThanZero(validateIfNumber(arr[1]) ? arr[1] : '') ? arr[1] : '';
+var vType = validateIfLetter(arr[2]) ? (arr[2].length <= 3 && arr[2].length > 1) ? arr[2] : '' : '';
+var regNo = numCount(validateIfNumber(arr[3]) ? arr[3] : '') ? arr[3] : '';
+if (zoneCode != '' && batch != '' && vType != '' && regNo != '') {
+    bikeRegistrationFlag = true;
+    $('#error').text('');
+} else {
+    bikeRegistrationFlag = false;
+    $('#error').text('Vehicle registration number is incorrect');
+}
+
+}
+});
+
+function validateIfNumber(word) {
+
+if (word === '' || word === 0)
+return false;
+
+var regex = /^[0-9]+$/;
+
+return (word.match(regex)) ? true : false;
+}
+
+function validateIfLetter(word) {
+
+var regex = /^[a-zA-Z]+$/;
+return (word.match(regex)) ? true : false;
+}
+
+function numCount(num) {
+
+var numberOfDigits = Math.floor(Math.log(num) / Math.LN10 + 1);
+return (numberOfDigits <= 4 && num > 0) ? true : false;
+
+}
+
+function greaterThanZero(num) {
+
+return (num > 0 && num != '') ? true : false;
+}
+
+$("#form").submit(function (event) {
+
+if (!bikeRegistrationFlag) {
+event.preventDefault();
+$('#error').text('Vehicle registration number is incorrect');
+}
+
+});
+</script>
+<script>
+$(document).ready(function () {
+$(function () {
+$('#bike_registration_no').click(function () {
+    $('#form input[type=text], #form select').each(function () {
+        $(this).prop('required', false);
+        $("#block").hide(900);
+        $("#new_bike_registration_no").prop('disabled', true);
+    });
+});
+
+$('#cbxShowHide').click(function () {
+    var checked = $(this).is(':checked');
+    if (checked) {
+        $("#block").show(900).addClass('selected');
+        $("#bike_registration_no").prop('disabled', true);
+        $("#new_bike_registration_no").removeAttr('disabled');
+        // $("#bike_registration_no").attr('disabled', !$("#bike_registration_no").attr('disabled'));
+    } else {
+        $("#block").hide(900).removeClass('selected');
+        $("#bike_registration_no").removeAttr('disabled');
+        // $("#bike_registration_no").attr('disabled', !$("#bike_registration_no").attr('disabled'));
+        $('#form input[type=text], #form select').each(function () {
+            $(this).prop('required', !checked);
+        });
+    }
+    $('#form input[type=text], #form select').each(function () {
+        $(this).prop('required', !checked);
+    });
+});
+});
+});
+
+var newbikeRegistrationFlag = true;
+$('#new_bike_registration_no').change(function () {
+var arr = [];
+var bikeNo = $(this);
+arr = bikeNo.val().split(' ');
+// console.log(arr);
+if (arr.length < 4 || arr.length > 4) {
+newbikeRegistrationFlag = false;
+$('#newError').text('Vehicle registration number is incorrect');
+return false;
+} else {
+var officeCode = officeGreaterThanZero(validateIfNumber(arr[0]) ? arr[0] : '') ? arr[0] : '';
+// console.log(officeCode);
+// var zoneCode = validateIfLetter(arr[0]) ? (arr[0].length <= 3 && arr[0].length > 1) ? arr[0] : '' : '';
+var batch = greaterThanZero(validateIfNumber(arr[1]) ? arr[1] : '') ? arr[1] : '';
+var vType = validateIfLetter(arr[2]) ? (arr[2].length <= 3 && arr[2].length > 1) ? arr[2] : '' : '';
+var regNo = numCount(validateIfNumber(arr[3]) ? arr[3] : '') ? arr[3] : '';
+console.log(officeCode, batch, vType, regNo);
+if (officeCode != '' && batch != '' && vType != '' && regNo != '') {
+    newbikeRegistrationFlag = true;
+    $('#newError').text('');
+} else {
+    newbikeRegistrationFlag = false;
+    $('#newError').text('Vehicle registration number is incorrect');
+}
+
+}
+});
+
+function validateIfNumber(word) {
+
+if (word === '' || word === 0)
+return false;
+
+var regex = /^[0-9]+$/;
+
+return (word.match(regex)) ? true : false;
+}
+
+function validateIfLetter(word) {
+
+var regex = /^[a-zA-Z]+$/;
+return (word.match(regex)) ? true : false;
+}
+
+function numCount(num) {
+
+var numberOfDigits = Math.floor(Math.log(num) / Math.LN10 + 1);
+return (numberOfDigits <= 4 && num > 0) ? true : false;
+
+}
+
+function officeGreaterThanZero(num) {
+
+return (num > 0 && num != '') ? true : false;
+}
+
+function greaterThanZero(num) {
+
+return (num > 0 && num != '') ? true : false;
+}
+
+$("#form").submit(function (event) {
+
+if (!newbikeRegistrationFlag) {
+event.preventDefault();
+$('#newError').text('Vehicle registration number is incorrect');
+}
+
+});
+</script>
+<script>
+
+$(document).ready(function () {
+
+//trigger on change
+$("select[name='vcompany_id']").change(function () {
+var vcompany_id = $(this).val();
+var token = $("input[name='_token']").val();
+
+$.ajax({
+    url: base_url + "/select-models",
+    method: 'GET',
+    data: {vcompany_id: vcompany_id, _token: token},
+    success: function (data) {
+        $("select[name='model_id']").html('');
+        $("select[name='model_id']").html(data.options);
+    }
+});
+});
+
+});
+
+
+</script>
+
+<script>
+    $(function () {
+        let base_url = 'http://localhost:3000/';
+        $('#form').submit(function (event) {
+            event.preventDefault();
+            let booking = {
+            company: $("#company").val(),
+            model: $("#model").val(),
+            registration: $("#registration").val(),
+            color: $("#color").val(),
+            query: $("#query").val()
+  
+        };
+
+   
+
+
+        
+        $.ajax({
+            type: 'POST',
+            url: base_url + 'bookings',
+            data: booking,
+            success: function (user) {
+                   alert("Booking Done!");
+                   location.reload();
+     
+               
+                
+            },
+            error: function (error) {
+              
+
+            }
+        });
+        })
+    })
+</script>
+
+
+</body>
+</html>
