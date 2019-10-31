@@ -1,0 +1,1600 @@
+.notificationAlert {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+}
+
+.notificationAlert .fade:not(.show) {
+    opacity: 1;
+}
+
+.notificationAlert .alert-info {
+    color: #fff;
+    background-color: #0b1539;
+    z-index: 1;
+}
+
+.notificationAlert p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.notificationAlert a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.cardNews {
+    min-height: 420px;
+}
+
+.proButton {
+    background-color: #0b1539;
+    color: #fff;
+}
+
+.proButton:hover {
+    background-color: #fff;
+    color: #0b1539;
+    border: 1px solid #0b1539;
+}
+
+.cardNews2 {
+    background-color: #ececec;
+    padding: 20px 0 20px 0;
+}
+
+.cardNews2 .blogImage {
+    height: 200px;
+    width: 370px;
+}
+
+.cardNews2 h5 {
+    color: #0b1539;
+    padding: 5px 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.cardNews2 .blogImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.cardNews2 .blogInfo p {
+    margin-top: 35px;
+    font-size: 14.5px;
+}
+
+.cardNews2 .blogInfo {
+    background-color: #fff;
+    color: #0b1539;
+    padding: 20px 15px;
+    width: 370px;
+}
+
+.cardNews2 .blogInfo .text-grey {
+    font-size: 12px;
+}
+
+.powerBrand {
+    float: right;
+}
+
+.subsData {
+    justify-content: center;
+}
+
+footer {
+    /*font-family: 'Poppins';*/
+}
+
+.cardNews {
+    background-color: #ececec;
+    padding: 40px 0;
+    border-radius: 0.25em;
+}
+
+.cardNews .card {
+    width: 100%;
+}
+
+.cardNews .card-body {
+
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem 1.25rem 0 1.25rem;
+
+}
+
+.cardNews .card h5 {
+    padding: 5px 0;
+    /*margin-bottom: -25px;*/
+}
+
+.card-title {
+
+    margin-bottom: 0;
+
+}
+
+.cardNews .card img {
+    width: 100%;
+}
+
+.cardNews .card-footer {
+    background-color: #fff;
+    border-top: none;
+}
+
+.updates a {
+    text-decoration: none;
+    color: #0b1539;
+}
+
+.navbar-collapse {
+
+    padding-top: 10px;
+    display: flex;
+    justify-content: right;
+    padding-right: 15px;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: flex-end; /* Safari 6.1+ */
+    display: flex;
+
+}
+
+nav a {
+    color: #fff;
+    /*font-family: 'Poppins';*/
+}
+
+/*a{
+	color: #fff;
+}*/
+.bg-dark {
+    color: #0b1539;
+}
+
+button {
+    margin-right: 15px;
+}
+
+/*nav .navbar-nav .active{
+	border-bottom: 2px solid #fff;
+}*/
+.navbar-dark .navbar-nav .nav-link {
+    /*font-weight:600;*/
+    padding-left: 35px;
+    color: #fff;
+    padding-top: 0;
+    font-size: 17px;
+
+}
+
+.dropdown .dropdown-toggle .img-circle {
+    width: 50px;
+    height: 50px;
+}
+
+.caret {
+    margin: 4px 0px 0px 24px;
+    vertical-align: top;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: -15px;
+    margin-right: -41px;
+    text-align: left;
+    text-indent: 5px;
+    background-color: #0D112D !important;
+    color: #FFF;
+    font-size: 1.1em;
+}
+
+.dropdown {
+    padding-left: 30px;
+}
+
+.dropdown li {
+    padding: 5px 0;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    position: absolute;
+    left: 45%;
+    bottom: -2px;
+}
+
+/*.contactLocation{
+	margin: 0 auto;
+}*/
+.join {
+    padding: 30px 0;
+    margin: 0 auto;
+}
+
+.input-type input {
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    color: #0b1539;
+
+}
+
+.input-link a:hover {
+    background-color: green;
+    /*color: */
+}
+
+.input-link a {
+    background-color: #fff;
+    color: #0000;
+    border-color: #0b1539;
+    height: 40px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+
+.input-group {
+
+    border-collapse: separate;
+
+}
+
+.input-link {
+
+    float: right;
+    margin-right: 0;
+    margin-left: 0;
+    width: 30%;
+
+}
+
+.contactLocation {
+    margin: 0 auto;
+}
+
+.contactLocation ul li {
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px;
+}
+
+.contactLocation ul li i {
+    margin-right: 10px;
+}
+
+nav .navbar-nav .logIn {
+    border: 1px solid #ffff;
+    border-radius: 5%;
+}
+
+.navbar-toggle.collapsed {
+    background-color: #000 !important;
+}
+
+.navbar-brand {
+    padding-left: 15px;
+}
+
+.bg-light, .blogBack {
+    background-color: #0b1539;
+    /*margin: 30px 0;*/
+    color: #ececec;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.serviceButtonSelect {
+    padding: 0;
+}
+
+.serviceButtonSelect .nav-tabs .active {
+    color: #fff !important;
+    background-color: #0b1539 !important;
+    /*border-color: #dee2e6 #dee2e6 #fff;*/
+    font-size: 18px;
+    font-weight: 200 !important;
+}
+
+.serviceButtonSelect .nav-tabs .nav-link {
+    border: none;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #0b1539;
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+
+.serviceButtonSelect .nav-tabs {
+    margin-bottom: 30px;
+}
+
+.slogan {
+    text-align: center;
+    /*margin: 20px 0;*/
+    color: #fff;
+    background-color: #0b1539;
+}
+
+.slogan h4 {
+    font-size: 30px;
+    padding: 20px 0 1px 0;
+}
+
+.slogan h6 {
+    padding-bottom: 20px;
+}
+
+.blogcover {
+    height: 317px;
+    background-image: url("../images/blog3.jpg");
+    background-size: 100%;
+    /*opacity: 0.5;*/
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+/*.blogcover h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: inherit;
+	font-family: 'Poppins';
+	color: #ffff;
+	font-size: 70px;
+	padding: 100px 0;
+
+}*/
+.cardNews a {
+    text-decoration: none;
+}
+
+.cardNews h5:hover,
+.heading h4:hover {
+    color: #0b1539;
+    text-decoration: none;
+}
+
+/*.cover2{
+	color: red;
+	background:rgba(0,0,0,0.7);
+	height: 300px;
+}*/
+
+.text-grey {
+    color: grey;
+    font-size: 12px;
+    padding: 0px;
+    margin: 0;
+    font-weight: inherit;
+}
+
+.cardNews h5,
+.heading h4 {
+    font-size: 17px;
+    color: #000;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.cardNews p {
+    font-size: 14px;
+    line-height: 26px;
+
+}
+
+.updates {
+    margin: 20px 0;
+}
+
+/*.news{
+	margin: 30px 0;
+}*/
+.latest h4 {
+    font-size: 24px;
+    color: #0b1539;
+    font-weight: bold;
+    margin: 30px 0 -20px 0;
+}
+
+.containData p {
+    font-size: 14px;
+    line-height: 29px;
+    text-align: justify;
+}
+
+.cardNews i {
+    font-size: 10px;
+    font-weight: inherit;
+    padding-right: 5px;
+}
+
+.articleNotice h5,
+.archieve h5,
+.recentNotice h5 {
+    background-color: #0b1539;
+    padding: 10px 0;
+    color: #ececec;
+    top: 0;
+    margin-top: -9px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+
+.articleNotice,
+.archieve,
+.recentNotice {
+    background-color: #ececec;
+    padding: 10px 0;
+    /*font-family: 'Poppins';*/
+    border-radius: 15px;
+}
+
+.archieve {
+    margin: 20px 0;
+}
+
+.articleNotice ul li,
+.archieve ul li,
+.recentNotice ul li {
+    font-size: 13.5px;
+    margin: 10px 15px 10px 0;
+
+}
+
+.articleNotice ul li a,
+.archieve ul li a,
+.recentNotice ul li a {
+    color: #0b1539;
+    text-decoration: none;
+}
+
+.articleNotice ul li a:hover,
+.archieve ul li a:hover,
+.recentNotice ul li a:hover {
+    color: #0b1539;
+}
+
+.text-blue {
+    color: #0b1539;
+    margin: 20px 0;
+}
+
+.text-nano {
+    float: right;
+    font-size: 9px;
+}
+
+.pagination {
+    margin: 20px 0;
+
+}
+
+.pagination .page-link {
+    background-color: #0b1539;
+    color: #fff;
+}
+
+.pagination .page-link:hover {
+    background-color: #fff;
+    color: #0b1539;
+}
+
+.lowFooter {
+    background-color: #0b1539;
+    /*padding: 20px 10px;*/
+    color: #fff;
+    font-size: 13px;
+}
+
+.powerBrand {
+    margin-top: -37px;
+}
+
+.follow {
+    text-align: center;
+}
+
+.follow ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 80px;
+
+}
+
+.follow ul li {
+    float: left;
+    padding-right: 5px;
+
+}
+
+.follow a {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #ececec;
+}
+
+.follow ul li a:hover {
+    transform: translateY(10px);
+}
+
+.lowFooter p {
+    padding-top: 25px;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+.hvr-float-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.rightFooter h6 {
+    font-weight: 700;
+}
+
+.rightFooter p {
+    font-size: 14px;
+    color: #4e4e4e !important;
+    padding: 0;
+    margin: 0;
+}
+
+.topFooter {
+    /*background-color: #ececec;*/
+    padding: 20px 0;
+}
+
+.footLogo {
+    text-align: center;
+    height: 100px;
+    margin: 30px 0;
+}
+
+.footLogo img {
+    height: 100%;
+    width: auto;
+
+}
+
+.contactUs,
+.company,
+.policie,
+.resource {
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 30px;
+}
+
+.contactUs h5,
+.company h5,
+.policie h5,
+.resource h5 {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #0b1539;
+    font-weight: inherit;
+}
+
+.contactUs ul {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.contactUs a {
+    text-decoration: none;
+    color: #0b1539;
+    font-size: 13px;
+}
+
+.contactUs i {
+    padding-right: 10px;
+}
+
+.policie p,
+.company p,
+.resource p {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+.centerData {
+    text-align: center;
+}
+
+.centerData ul {
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+}
+
+.centerData ul li {
+    float: left;
+    padding-right: 10px;
+}
+
+.postThumb {
+    width: 225px;
+    height: auto;
+
+}
+
+.pnews a {
+    text-decoration: none;
+}
+
+.postThumb img {
+    width: 100%;
+    height: 145px;
+    /*margin-top: 15px;*/
+}
+
+.caption {
+    margin: 20px 0;
+    font-size: 15px;
+    color: #0b1539;
+    font-weight: 700;
+}
+
+.pressNews {
+    margin: 20px 0;
+}
+
+.pressNews h5 {
+    font-size: 18px;
+
+    color: #0b1539;
+
+    font-weight: bold;
+}
+
+.pressNews p {
+    line-height: 29px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.text-blue {
+
+}
+
+.pnews {
+    margin-bottom: 30px;
+}
+
+.banner {
+    background-image: url("../images/press1.jpg");
+
+    background-size: 100%;
+
+    height: 317px;
+
+    width: 100%;
+
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+
+}
+
+.cardNews h5, .heading h4 {
+    font-size: 17px;
+    color: #0b1539;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.detailCover {
+    background-image: url("../images/cover.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.detailData {
+    margin: 30px 0;
+}
+
+.detailData h4 {
+    font-size: 23px;
+    color: #0b1539;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+}
+
+.detailData p {
+    font-size: 14px;
+    line-height: 29px;
+    text-align: justify;
+}
+
+.detailData h5 {
+    font-weight: 700;
+    font-size: 18.5px;
+    color: #0b1539;
+    margin: 20px 0;
+
+}
+
+.detailImage {
+    width: 820px;
+}
+
+.detailImage img {
+    width: 100%;
+}
+
+.newsLetter {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.newsletter input .form-control {
+    width: 385px;
+}
+
+.newsLetter .subCribe {
+    border: 1.5px solid #0b1539;
+    color: #0b1539;
+    height: 40px;
+}
+
+.newsLetter .subCribe:hover {
+    border: 1.5px solid #0b1539;
+    background-color: #0b1539;
+    color: #fff;
+    /*height: 40px;*/
+}
+
+.icons,
+.icons2 {
+    display: inline-block;
+}
+
+.contactUs ul {
+
+    list-style-type: none;
+    font-size: 15px;
+
+}
+
+.contcatUs ul li {
+    float: left;
+}
+
+.icons ul {
+    margin-left: -40px;
+}
+
+.icons ul,
+.icons2 ul {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+}
+
+.icons ul li,
+.icons2 ul li {
+    float: left;
+    padding-right: 10px;
+}
+
+.icons2 ul li i {
+    background-color: #fff;
+    color: #0b1539;
+    font-size: 25px;
+}
+
+.icons ul li i {
+    background-color: #fff;
+    color: #0b1539;
+    font-size: 30px;
+}
+
+.icons ul li i:hover,
+.i ul li i:hover {
+    transform: scale(1.3);
+    transition: transform .2s;
+}
+
+.icons2 ul li i:hover {
+    transform: scale(1.3);
+    transition: transform .2s;
+}
+
+.recentNotice span {
+    font-size: 12px;
+    float: right;
+    color: #0b1539;
+}
+
+.clear {
+    clear: both;
+}
+
+/*mobile friendly*/
+
+@media (min-width: 300px) and (max-width: 399px) {
+    .logo img {
+        height: 35px;
+        width: auto;
+    }
+
+
+    .postThumb {
+        width: 343px;
+        height: 200px;
+        margin-top: -35px;
+    }
+
+    .postThumb img {
+        width: 100%;
+        height: 100%;
+        /*margin-top: 15px;*/
+    }
+
+    .pressNews h5 {
+        padding-top: 15px;
+        font-size: 15px;
+    }
+
+    .pressNews p {
+        line-height: 23px;
+        font-size: 13.5px;
+        text-align: justify;
+    }
+
+    .blogcover,
+    .banner {
+        height: 82px;
+        background-size: 100%;
+    }
+
+    .cardNews h5, .heading h4 {
+        font-size: 16px;
+        color: #0b1539;
+        line-height: 24px;
+        font-weight: bold;
+        margin-top: 20px;
+
+    }
+
+    .containData p {
+        font-size: 14px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    .pagination {
+        float: none;
+        justify-content: center;
+    }
+
+    .follow a {
+        font-size: 20px;
+        margin-right: 8px;
+        color: #ececec;
+    }
+
+    .lowFooter p {
+        padding-top: 24px;
+        margin-bottom: 5px;
+    }
+
+    .power p {
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .cardNews {
+        margin-bottom: -25px;
+    }
+
+    .powerBrand {
+        float: none;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .detailImage {
+        width: 345px;
+    }
+
+    .detailData h4 {
+        font-size: 16px;
+        color: #0b1539;
+        font-weight: 700;
+        /* margin: 3px 0; */
+        margin-top: -15px;
+    }
+
+    .icons2 ul li i {
+        background-color: #fff;
+        color: #0b1539;
+        font-size: 21px;
+    }
+
+    .detailData h5 {
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 27px;
+        color: #0b1539;
+        margin: 10px 0;
+    }
+
+    .detailData p {
+        font-size: 13.5px;
+        line-height: 27px;
+        text-align: justify;
+    }
+
+    .icons ul li i {
+        background-color: #fff;
+        color: #0b1539;
+        font-size: 27px;
+    }
+
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+    .recentNotice span {
+        float: none;
+
+        text-align: left;
+    }
+
+    .cardNews h5, .heading h4 {
+        font-size: 16px;
+        color: #0b1539;
+        line-height: 24px;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+
+    .join {
+        margin-top: -30px;
+        margin-left: 50px;
+    }
+
+    .join h5 {
+        text-align: center;
+        margin-left: -50px;
+    }
+
+    .contactLocation {
+        text-align: center;
+    }
+
+    .contactLocation ul {
+        padding: 0px;
+    }
+
+    .icons {
+        margin-left: -35px;
+    }
+
+    .lowFooter {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .lowFooter h6 {
+        font-size: 15px;
+        padding: 20px 0;
+    }
+
+    .lowFooter ul {
+        margin-top: -20px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .footLogo {
+        margin: -20px 0;
+    }
+
+    .rightFooter h6 {
+        margin-top: 20px;
+    }
+
+    .power .img {
+        margin-top: -5px;
+    }
+
+    /*	.navbar-toggler {
+
+        padding: .25rem .75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: #ececec;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        margin-right: 15px;
+
+    }
+        .navbar-collapse {
+
+        padding-top: 10px;
+        display: flex;
+        justify-content: flex-end;
+        text-align: right;
+        margin-right: 15px;
+
+    }*/
+    .menu-botton {
+        color: red;
+    }
+
+    .blogcover,
+    .banner {
+        margin-bottom: 0px;
+        height: 95px;
+    }
+
+
+    .postThumb {
+        margin: 0 auto;
+        width: auto;
+
+        height: 200px;
+        margin-bottom: 5px;
+
+    }
+
+    .pagination {
+        justify-content: center;
+        float: none;
+    }
+
+    .postThumb img {
+        text-align: center;
+        width: 100%;
+        height: 190px;
+        /*	margin-bottom: 50px;*/
+    }
+
+    .pnews {
+        margin: 0 auto;
+    }
+
+    .cover {
+        height: 300px;
+        margin-bottom: -75px;
+    }
+
+    .detailImage {
+        width: 370px;
+        height: 185px;
+    }
+
+    .detailImage img {
+        width: 100%;
+        height: auto;
+    }
+
+    .powerBrand {
+        float: none;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .cardNews {
+        margin-bottom: -35px;
+    }
+
+    .detailData h5 {
+        font-weight: 700;
+        font-size: 17.5px;
+        color: #0b1539;
+        margin: 20px 0 2px 0;
+        line-height: 30px;
+    }
+
+
+    .detailData h4 {
+        font-size: 21px;
+        color: #0b1539;
+        font-weight: 700;
+        margin: 0 0 15px 0;
+        line-height: 30px;
+    }
+
+    .icons {
+
+        margin: 10px 0 20px 0;
+    }
+
+}
+
+
+@media (min-width: 501px) and (max-width: 599px) and (orientation: landscape ) {
+    .detailData h4 {
+        font-size: 18px;
+        color: #0b1539;
+        line-height: 25px;
+        font-weight: 700;
+        margin: -10px 0 15px 0;
+    }
+
+    .detailImage {
+        width: 500px;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .icons2 ul li i {
+        background-color: #fff;
+        color: #0b1539;
+        font-size: 23px;
+    }
+
+    .detailData h5 {
+        font-weight: 700;
+        font-size: 18px;
+        color: #0b1539;
+        margin: 20px 0 10px 0;
+    }
+
+    .follow ul {
+        text-decoration: none;
+        list-style-type: none;
+        margin-left: 135px;
+    }
+
+    .powerBrand {
+        float: none;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .blogcover,
+    .banner {
+        height: 150px;
+        background-size: 100%;
+    }
+
+    .cardNews {
+        margin-bottom: -35px;
+    }
+
+    .pagination {
+        float: none;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 750px) {
+
+    .cardNews {
+
+        background-color: #ececec;
+        padding: 30px 0;
+    }
+
+    .cardNews .card {
+        margin-top: 25px;
+    }
+
+    .cardNews .card img {
+
+        width: 100%;
+        height: 275px;
+
+    }
+
+    .postThumb {
+        margin-top: -25px;
+        width: 500px;
+        height: 240px;
+
+    }
+
+    .postThumb img {
+        margin-bottom: 20px;
+        width: 100%;
+        height: 240px;
+    }
+
+    .pressNews h5 {
+
+        font-size: 18px;
+        color: #0b1539;
+        font-weight: bold;
+        margin-top: 20px;
+
+    }
+
+    .recentNotice span {
+
+        font-size: 12px;
+        float: left;
+        color: #0b1539;
+
+    }
+
+    .follow ul {
+
+        text-decoration: none;
+        list-style-type: none;
+        margin-left: 140px;
+        margin-top: -20px;
+    }
+
+    .lowFooter p {
+
+        padding-top: 10px;
+
+    }
+
+    .powerBrand {
+        float: none;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .detailImage {
+
+        width: 500px;
+
+    }
+
+    .detailData h4 {
+
+        font-size: 19px;
+        color: #0b1539;
+        font-weight: 700;
+        margin: -12px 0 15px 0;
+
+    }
+
+    .icons2 ul li i {
+
+        background-color: #fff;
+        color: #0b1539;
+        font-size: 22px;
+
+    }
+
+    .blogcover,
+    .banner {
+
+        height: 135px;
+        /*background-image: url("../images/blog3.jpg");*/
+        background-size: 100%;
+    }
+
+    .pagination {
+        float: none;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+    .blogcover,
+    .banner {
+
+        height: 180px;
+    }
+
+    .blogThumb .card {
+        width: 300px;
+    }
+
+    .postThumb {
+        width: 690px;
+        height: 320px;
+        margin: 0 auto;
+    }
+
+    .pagination {
+        justify-content: center;
+        float: none;
+
+    }
+
+    .postThumb img {
+        margin-bottom: 30px;
+        height: 320px;
+        margin-top: -25px;
+    }
+
+    .lowFooter {
+        margin-top: 30px;
+    }
+
+    .lowFooter p {
+        font-size: 15px;
+    }
+
+    .follow ul {
+
+        text-decoration: none;
+        list-style-type: none;
+        margin-left: 14.5pc;
+
+    }
+
+    .follow ul li {
+        float: left;
+        padding-right: 0px;
+    }
+
+    /*	.navbar-toggler {
+
+        padding: .25rem .75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: #ececec;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+    }*/
+    .detailImage {
+        width: 690px;
+        height: 340px;
+    }
+
+    .detailImage img {
+        width: 100%;
+    }
+
+    footer h6 {
+        margin-top: 10px;
+    }
+
+    .cardNews .card {
+        margin-bottom: 40px;
+    }
+
+    .cardNews img {
+        height: 350px;
+    }
+
+    .powerBrand {
+        float: none;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .blogcover {
+
+        height: 178px;
+    }
+
+    .recentNotice span {
+        float: none;
+        margin: 15px 5px;
+        text-align: right;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 999px) {
+    .blogcover,
+    .banner {
+        height: 210px;
+        margin-bottom: 0;
+    }
+
+    .cardNews img {
+        height: 345px;
+        width: 100%;
+    }
+
+    .cardNews .card {
+        margin-bottom: 30px;
+    }
+
+    .pagination {
+        float: none;
+        justify-content: center;
+    }
+
+    .follow ul {
+        text-decoration: none;
+        list-style-type: none;
+        margin-left: 230px;
+        margin-top: -15px;
+
+    }
+
+    .lowFooter p {
+        padding-top: 20px;
+    }
+
+    .powerBrand {
+        float: none;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .postThumb {
+        width: 720px;
+        height: 380px;
+        margin-bottom: 30px;
+    }
+
+    .postThumb img {
+        width: 100%;
+        height: 380px;
+
+    }
+
+    .pressNews h5 {
+        font-size: 22px;
+        color: #0b1539;
+        font-weight: bold;
+        /*margin: 20px 0;*/
+    }
+
+    .detailImage {
+        width: 685px;
+    }
+
+    .icons2 ul li i {
+        background-color: #fff;
+        color: #0b1539;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1099px) and (max-width: 1298px) {
+    .blogcover,
+    .banner {
+        height: 260px;
+        margin-bottom: 0;
+    }
+
+}
+
+@media (min-width: 1299px) and (max-width: 1398px) {
+    .blogcover,
+    .banner {
+        height: 300px;
+        margin-bottom: 0;
+    }
+
+}
+
+@media (min-width: 1399px) and (max-width: 1500px) {
+    .blogcover,
+    .banner {
+        height: 333px;
+        margin-bottom: 0;
+    }
+
+}
+
+@media (min-width: 1501px) and (max-width: 1699px) {
+    .blogcover,
+    .banner {
+        height: 348px;
+        margin-bottom: 0;
+    }
+
+}
+
+@media (min-width: 1700px) and (max-width: 1799px) {
+    .blogcover,
+    .banner {
+        height: 389px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1800px) and (max-width: 1899px) {
+    .blogcover,
+    .banner {
+        height: 420px;
+        margin-bottom: 0;
+    }
+
+}
+
+@media (min-width: 1900px) and (max-width: 1999px) {
+    .blogcover,
+    .banner {
+        height: 448px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 2198px) {
+    .blogcover,
+    .banner {
+        height: 465px;
+        margin-bottom: 0;
+    }
+
+}
+
+@media (min-width: 2199px) and (max-width: 2399px) {
+    .blogcover,
+    .banner {
+        height: 513px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 2400px) and (max-width: 2599px) {
+    .blogcover,
+    .bannner {
+        height: 563px;
+        margin-bottom: 0;
+    }
+
+}
+
+@media (min-width: 2600px) and (max-width: 2750px) {
+    .blogcover,
+    .banner {
+        height: 607px;
+        margin-bottom: 0;
+    }
+
+}
+
+@media (min-width: 2751px) and (max-width: 2850px) {
+    .blogcover,
+    .banner {
+        height: 650px;
+        margin-bottom: 0;
+    }
+
+}
+
+@media (min-width: 2851px) and (max-width: 2950px) {
+    .blogcover,
+    .banner {
+        height: 650px;
+        margin-bottom: 0;
+    }
+
+}
+
+@media (min-width: 2951px) and (max-width: 3050px) {
+    .blogcover,
+    .banner {
+        height: 690px;
+        margin-bottom: 0;
+    }
+
+}

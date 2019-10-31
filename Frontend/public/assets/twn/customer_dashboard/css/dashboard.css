@@ -1,0 +1,4339 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.backGrnd {
+    background-color: #0b1539;
+    color: #fff;
+}
+
+.linkAlign {
+    text-align: center;
+}
+
+.canvasjs-chart-canvas {
+
+}
+
+.radio-group .getAddNavs {
+    margin: 0 auto;
+}
+
+.headSubs {
+    background-color: #0b1539;
+    padding: 15px;
+    margin-left: -30px;
+    border-top-left-radius: 0.35rem;
+    border-top-right-radius: 0.35rem;
+}
+
+.menu {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 0.35rem;
+    margin: 20px 0;
+}
+
+.filterBike #example1 {
+    border-radius: 3px;
+    width: 100%;
+    border: none;
+    margin-bottom: 15px;
+    padding: 0 10px;
+    height: 35px;
+}
+
+.bikeCondition #example1 {
+    border-radius: 5px;
+    width: 75%;
+    margin-left: 20px;
+    border: 1px solid lightgrey;
+    margin-bottom: 0px;
+    padding: 0 10px;
+    height: 35px;
+}
+
+.sortBy {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #0b1539;
+    background-color: #0b1539;
+}
+
+.buyBikeInfo a {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: #0b1539 !important;
+}
+
+.buyBikeInfo a:hover {
+    color: grey !important;
+}
+
+.subGrp {
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.iconBackRedem {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border: 2px solid grey;
+    border-radius: 0.25rem;
+    padding: 20px;
+}
+
+.rewardInfo {
+    text-align: center;
+    color: grey;
+    padding-bottom: 30px;
+}
+
+.redemBackDash {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.redemModal h4 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.redemBackDash a:hover {
+    color: grey;
+}
+
+.redemBackDash a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 auto;
+    color: #0b1539;
+    text-align: center;
+}
+
+.iconBackRedem img {
+    width: 100%;
+    height: 100%;
+}
+
+.subInfo {
+    margin-left: -30px;
+    color: grey;
+    background-color: #fff;
+    padding: 20px;
+    border-bottom-left-radius: 0.35rem;
+    border-bottom-right-radius: 0.35rem;
+}
+
+.subInfo p {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.headSubs h6 {
+    color: #fff !important;
+    margin: 0;
+    padding: 0;
+}
+
+.buyBikeBack {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0.25rem;
+}
+
+.buyBikeImg {
+    position: relative;
+    width: auto;
+    height: 180px;
+}
+
+.postDate {
+    position: absolute;
+    background-color: #fff;
+    color: grey;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 2px 8px;
+    left: 7px;
+    bottom: 7px;
+    border-radius: 0.25rem;
+}
+
+.buyBikeImg img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgrey;
+}
+
+.buyBikeInfo {
+    padding-top: 10px;
+}
+
+.addWish {
+    border: 1px solid lightgrey;
+    padding: 2px 7px;
+    border-radius: 0.25rem;
+    position: absolute;
+    top: 10px;
+    right: 12px;
+}
+
+.btnGrpDashSe {
+    margin-bottom: 7px;
+}
+
+.saleModal .modal-body {
+    text-align: center;
+    /*margin: 0 auto;*/
+    /*background-color: #ECF0F1;*/
+    color: #0b1539;
+
+}
+
+.saleModal h5 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.saleModal i {
+    font-size: 80px;
+    text-align: center;
+    margin: 0 auto 30px auto;
+
+}
+
+.innerData {
+    padding: 20px;
+    border: 1px solid #0b1539;
+}
+
+.saleModal h5 {
+    text-align: center;
+}
+
+.selButn {
+    background-color: #fff;
+    border: 1px solid #0b1539;
+    color: #0b1539 !important;
+    font-weight: 600;
+
+    font-size: 14px;
+
+    margin-right: 10px;
+    padding: 1px 10px;
+
+}
+
+.selButn:hover {
+    background-color: #0b1539;
+    border: 1px solid #0b1539;
+    color: #fff !important;
+}
+
+.buyBikeInfo h6 {
+    text-align: center;
+    font-weight: bold;
+    color: #0b1539 !important;
+}
+
+.buyBikeInfo i {
+    padding-right: 5px;
+}
+
+.buyBikeInfo p {
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    color: grey;
+    font-size: 13px;
+}
+
+.iconGrp {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.iconGrp i {
+    color: grey;
+    font-size: 15px;
+}
+
+.iconGrp p {
+    font-weight: bold;
+    font-size: 9px;
+}
+
+.bikeInfo .bikeinfoTitle {
+    font-size: 16px;
+    background-color: #0b1539;
+    color: #fff;
+    width: 150px;
+    margin-bottom: 15px;
+    border-top-right-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    padding: 7px 10px;
+    text-align: center;
+}
+
+.bikeInfo .bikeinfoTitle2 {
+    font-size: 16px;
+    background-color: #0b1539;
+    color: #fff;
+    width: 180px;
+    margin-bottom: 15px;
+    border-top-right-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    padding: 7px 10px;
+    text-align: center;
+}
+
+.bikeInfo p {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.feaetureList {
+    margin-top: -35px;
+    margin-left: 90px;
+    margin-bottom: -15px;
+}
+
+.divider {
+
+    border-color: #0b1539;
+    margin-top: -16px;
+}
+
+.headSubs .rightPrice {
+    float: right;
+}
+
+.userProfileBack input {
+    margin-bottom: 25px;
+    width: 600px;
+}
+
+.userProfileBack form {
+    text-align: left;
+    /*padding: 10px 30px;*/
+    margin-top: 10px;
+}
+
+.notifi .modal-content {
+    background-color: #ECF0F1;
+    left: 70%;
+    top: 9%;
+}
+
+.containNotice {
+    margin-bottom: 15px;
+}
+
+.containNotice h6 {
+    margin-bottom: 5px;
+    padding-left: 25px;
+    color: #0b1539;
+    font-weight: bold;
+    /*margin-top: 10px;*/
+}
+
+.containNotice p {
+    font-size: 12px !important;
+    padding-left: 25px;
+}
+
+.selectOptionBike ::-webkit-scrollbar,
+.notifi ::-webkit-scrollbar {
+    width: 5px;
+    height: 30px;
+}
+
+/* Track */
+.selectOptionBike ::-webkit-scrollbar-track,
+.notifi ::-webkit-scrollbar {
+    background: #0b1539;
+}
+
+.notifi .modal-body {
+    max-height: 350px;
+    overflow-y: scroll;
+}
+
+.containNotice a {
+    text-decoration: none;
+    color: #0b1539;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 25px;
+    top: -7px !important;
+    position: relative;
+}
+
+.notiImage {
+    width: 70px;
+    height: 70px;
+    margin-left: -18px;
+    padding: 0;
+}
+
+.notiImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.dateNotice {
+    background-color: #0b1539;
+    border: 0.75em;
+    color: #fff;
+    padding: 6px 2px;
+    height: 50px;
+    width: 50px;
+    font-size: 14px;
+    border-radius: 0.25rem;
+    text-align: center;
+    margin: 19px 0px;
+}
+
+.notifi .modal-dialog, .modal-content {
+    height: 80%;
+}
+
+.notifi .modal-header {
+    margin: 0;
+    font-weight: inherit;
+    padding: 15px;
+    /*text-transform: uppercase;*/
+    color: #0b1539;
+    font-weight: bold;
+    /*font-family: 'Poppins';*/
+}
+
+#myDIV2 {
+
+    display: none;
+
+}
+
+.containNotice a {
+    text-decoration: none;
+    color: #0b1539;
+    font-weight: bold;
+    font-size: 12px !important;
+    padding-left: 25px;
+    top: -19px;
+    position: relative;
+}
+
+.table-dark {
+    background-color: #0b1539;
+    color: #fff;
+    text-align: center;
+}
+
+.userProfileBack form button {
+    background-color: #0b1539;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.userProfileBack form button:hover {
+    background-color: #fff;
+    color: #0b1539 !important;
+    border: 1px solid;
+}
+
+.modal-content p {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.orderSuccess {
+    background-color: green;
+    padding: 5px 10px;
+    width: 100px;
+    color: #fff;
+    border-radius: 0.75em;
+}
+
+.orderProcess {
+    background-color: blue;
+    padding: 5px 10px;
+    width: 100px;
+    color: #fff;
+    border-radius: 0.75em;
+}
+
+.orderCancel {
+    background-color: red;
+    padding: 5px 10px;
+    width: 100px;
+    color: #fff;
+    border-radius: 0.75em;
+}
+
+.orderPending {
+    background-color: darkorange;
+    padding: 5px 10px;
+    width: 100px;
+    color: #fff;
+    border-radius: 0.75em;
+}
+
+.serviceBack a p {
+    display: none;
+
+}
+
+.serviceBack a:hover p {
+    display: block;
+    text-decoration: none;
+
+}
+
+.showTable thead {
+    background-color: #0b1539;
+    color: #fff;
+    text-align: center;
+
+}
+
+.rateTable button,
+.subscibeTable button {
+    border: 1px solid #0b1539;
+    padding: 2px 5px;
+    font-size: 14px;
+    /* margin: 5px 0; */
+    background: #0b1539;
+    color: #fff;
+}
+
+.rateTable button:hover,
+.subscibeTable button:hover {
+    border: 1px solid #0b1539;
+    color: #0b1539;
+    background-color: #fff;
+}
+
+.pagationData .pagination {
+    justify-content: right;
+}
+
+.rateTable table thead,
+.subscibeTable table thead {
+    color: #fff;
+    background-color: #0b1539;
+}
+
+.showTable .dashButton2 {
+    margin: 0;
+    padding: 2px 10px;
+}
+
+.dashButton2 {
+    border: 2px solid #0b1539;
+}
+
+.serviceSideNab {
+    padding: 20px 0 135px 0;
+
+}
+
+.showTable table {
+    display: none;
+    margin: 20px 0;
+}
+
+.showTable {
+    text-align: center;
+
+    /*margin: 30px 0 0 0 ;*/
+}
+
+.showTable button {
+    margin: 30px 0;
+    text-align: center;
+    background-color: #fff;
+
+}
+
+ul.nav.navbar-nav.navbar-right li a {
+    color: white;
+    font-weight: bold;
+    padding: 15px 20px 10px 20px;
+}
+
+.serviceBack:hover,
+.myBike:hover {
+
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    /*background-color: #ECF0F1;*/
+    /*border-radius: .75rem;*/
+
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    position: absolute;
+    left: 45%;
+    bottom: -2px;
+}
+
+.dropdown img {
+    margin-top: -16px;
+}
+
+.bg-dark {
+    background-color: #0b1539 !important;
+    /*padding: 15px 10px;
+    */
+}
+
+.dropdown .dropdown-toggle .img-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.dropdown-toggle {
+    background-color: transparent !important;
+}
+
+.dropdown ul li a {
+    padding: 8px !important;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.dropdown ul li i {
+    padding-right: 10px;
+}
+
+.dropdown ul li a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.dropdown-menu li a p {
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 8px;
+    margin-left: -77px;
+    text-align: left;
+    text-indent: 5px;
+    background-color: #0b1539 !important;
+    color: #FFF;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.navbar-nav > li > .notifcationDrp {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -22pc;
+    /* text-align: left; */
+    text-indent: 5px;
+    background-color: #ECF0F1 !important;
+    color: #0b1539;
+    font-size: 15px;
+    padding: 20px;
+    width: 420px;
+    height: 420px;
+    overflow-y: scroll;
+}
+
+.notificaitionDetail .modal-header {
+    background-color: #0b1539;
+    color: #fff;
+}
+
+.notificaitionDetail .modal-body {
+    background-color: #ECF0F1;
+}
+
+/* width */
+.notifcationDrp::-webkit-scrollbar {
+    width: 5px;
+}
+
+.close {
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
+/* Track */
+.notifcationDrp::-webkit-scrollbar-track {
+    background: #ECF0F1;
+}
+
+/* Handle */
+.notifcationDrp::-webkit-scrollbar-thumb {
+    background: #0b1539;
+}
+
+/* Handle on hover */
+.notifcationDrp::-webkit-scrollbar-thumb:hover {
+    background: #0b1539;
+}
+
+.notifcationDrp li {
+    border-bottom: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.dropdown-menu h4 {
+    text-align: left;
+    text-indent: 5px;
+    /*font-family: 'Poppins';*/
+    font-size: 15px;
+}
+
+.notify-sb, .notify-tb {
+    border-style: dashed dashed solid;
+    border-width: 0 8.5px 8.5px;
+    position: absolute;
+    left: 50%;
+    top: -8px;
+    height: 0;
+    width: 0;
+}
+
+.dropdown .fa-bell:hover {
+    color: rgba(255, 255, 255, .75);
+}
+
+.clear {
+    clear: both;
+}
+
+.notImg {
+    width: 50px;
+    height: 50px;
+}
+
+.notImg img {
+    margin-top: -3px;
+    width: 100%;
+    height: 100%;
+}
+
+.noticationInfo {
+    padding-left: 1px;
+
+}
+
+.notiTitle {
+    text-align: center;
+    font-weight: 600;
+    color: #0b1539;
+    border-bottom: 1px solid #888;
+    padding-bottom: 10px;
+}
+
+.noticationInfo p {
+    font-size: 13px;
+}
+
+.noticationInfo h6 {
+    text-align: left;
+    color: #0b1539;
+    font-weight: bold;
+}
+
+.notificationDetailImg {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.notificationDetailImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.75rem;
+}
+
+.notificaitionDetailInfo {
+    margin: 0 auto;
+}
+
+.notificaitionDetailInfo .date {
+    color: #888;
+    font-size: 13px;
+}
+
+.clickNoticaion p {
+    margin-bottom: 0;
+    text-align: justify;
+    padding-bottom: 2px;
+    font-size: 14px;
+    color: #000;
+}
+
+.clickNoticaion .readBtn {
+    font-size: 13px;
+    font-weight: bold;
+    float: left;
+    cursor: pointer;
+    padding: 0px !important;
+}
+
+.clickNoticaion .date {
+    color: #888;
+    float: right;
+    font-size: 12px;
+}
+
+.notificaitionDetailInfo p {
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/*dash menu*/
+.myDashboard {
+    margin-top: 70px;
+}
+
+.myDashboard .container-fluid {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.dashBrand {
+    width: 80px;
+    height: 50px;
+}
+
+.dashBrand img {
+    width: 100%;
+    height: 100%;
+}
+
+.mainDash .sideNav {
+    padding: 20px 0 60px 0;
+}
+
+.sideNav {
+    background-color: #ECF0F1;
+    color: #0b1539;
+    text-align: center;
+    padding: 25px 0 93px 0;
+
+}
+
+#profile-form input {
+    margin-bottom: 20px;
+}
+
+#profile-form button {
+    text-align: center;
+    background-color: #0b1539;
+    padding: 5px 15px;
+}
+
+#profile-form button:hover {
+    text-align: center;
+    color: #0b1539;
+    border: 1px solid #0b1539;
+    background-color: #fff;
+    padding: 5px 15px;
+}
+
+#profile-form .prfButton {
+    text-align: right;
+}
+
+.parsley-errors-list li {
+    color: red;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.sideNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.servLEFtIcon {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 0.75em;
+}
+
+.sideNav ul li a {
+    color: #0b1539;
+    text-decoration: none;
+}
+
+.sideNav ul li {
+    display: block;
+    padding: 10px 0;
+    height: 48px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    /*font-size: 15px;*/
+}
+
+.sideNav ul li .active {
+    padding: 7px 0;
+    border-bottom: 3px solid #0b1539;
+
+    /*padding: 16px 46px;
+
+        padding-left: 46px;
+
+    margin-left: 0;
+
+    padding-left: 47px;*/
+}
+
+.dashProfileImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.dasPImgimg {
+    width: 100%;
+    height: 100%;
+}
+
+.profileBtn {
+    margin-top: 20px;
+}
+
+.dashData h3 {
+    color: #0b1539;
+    font-weight: inherit;
+    /*text-transform: uppercase;*/
+}
+
+.notice {
+    /*font-style: italic;*/
+    font-size: 13px;
+}
+
+.annaul {
+    height: 300px;
+    width: 300px;
+    background-color: #ececec;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    border: 3px solid #0b1539;
+}
+
+.annaul i {
+    color: #0b1539;
+    padding: 60px 60px 0 60px;
+    font-size: 120px;
+}
+
+.annaul p {
+    padding: 25px 0 15px 0;
+    color: #0b1539;
+
+}
+
+.annaul h3 {
+    color: #0b1539;
+    font-weight: bold;
+    margin-top: -30px;
+}
+
+.dasButton {
+    padding: 40px 0;
+    text-align: center;
+
+}
+
+.dasButton button {
+    background-color: #ececec;
+    border: 1px solid #0b1539;
+    color: #0b1539;
+}
+
+.dasButton button:hover {
+    background-color: #0b1539;
+    /*border:1px solid #0b1539;*/
+    color: #fff;
+}
+
+.containDash1 {
+    height: 100px;
+    width: 100px;
+    color: red;
+    background-color: #0b1539;
+    border-radius: 50%;
+}
+
+.dashNotice {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.servicing {
+    background-color: #ececec;
+    height: 150px;
+    width: 150px;
+    border: 2px solid #0b1539;
+    border-radius: 10px;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+
+.servicing a {
+    text-decoration: none;
+    color: #0b1539;
+}
+
+.servicing img {
+
+    width: 39%;
+    height: auto;
+    /*margin-top: -10px;*/
+
+}
+
+.servicing p {
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.remainData {
+    margin: 20px 0;
+}
+
+/*.remainData .card p{
+	text-align: left;
+	font-size: 15px;
+}*/
+.bikeService,
+.billBook {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid green;
+    margin: 20px auto 0 auto;
+}
+
+.bikeService p,
+.billBook p {
+    font-size: 15px;
+    padding: 25px 0;
+}
+
+.serviceRead p,
+.taxInfo p {
+    text-align: left;
+    font-size: 15px;
+    padding: 3px 0;
+    margin: 0;
+}
+
+.dashServices {
+    margin: 30px 0;
+    /*font-family: 'Poppins';*/
+    /*margin-top: 1px solid grey;*/
+}
+
+.serviceRead h6,
+.taxInfo h6 {
+    font-size: 18px;
+    color: #0b1539;
+    font-weight: inherit;
+    text-transform: uppercase;
+}
+
+.serviceMeter p,
+.billMeter p {
+    font-size: 14px;
+    color: #0b1539;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.iconDash {
+    padding-right: 15px;
+    padding-left: 10px;
+    /*opacity: 0.5;*/
+    color: grey !important;
+    font-size: 20px;
+}
+
+.myDashboard strong {
+    text-transform: uppercase;
+    color: #0b1539;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.dashData .bikeInfor {
+    float: right;
+}
+
+.dashData .bikeInfor p {
+    text-align: right;
+    padding: 3px 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+.bikeInfor strong {
+    font-size: 15px;
+
+}
+
+.custom-select {
+    position: relative;
+    font-family: Arial;
+    padding: 0;
+    margin-bottom: 10px;
+    width: 95px;
+}
+
+.custom-select select {
+    display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+    background-color: #0b1539;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div, .select-selected {
+    color: #ffffff;
+    padding: 5px 0;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+/*style items (options):*/
+.select-items {
+    position: absolute;
+    background-color: #0b1539;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.userInfoDash h6 {
+    /*padding: 5px 10px;*/
+    font-size: 16px;
+    margin-top: 15px;
+    /*margin-bottom: 50px;*/
+}
+
+.userInfoDash {
+    margin: 30px 0;
+}
+
+.profileImage {
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+
+}
+
+.urOn {
+    text-align: center;
+    padding: 10px 0;
+    color: #fa9054 !important;
+}
+
+.bikeprofileImage {
+    width: 280px;
+    height: 150px;
+    margin-top: 40px;
+    width: 280px;
+    height: 150px;
+    margin-top: 40px;
+    position: absolute;
+    left: 40%;
+}
+
+.bikeprofileImage img {
+    height: 100%;
+    width: 100%;
+}
+
+.dashData .bikeprofileImage img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #0b1539;
+    /* border-radius: 5%; */
+    padding: 10px;
+    -webkit-box-shadow: 0 0 10px 1px #999;
+    -moz-box-shadow: 0 0 10px 1px #999;
+    box-shadow: 0 0 10px 1px #999;
+    min-height: 200px;
+}
+
+.profileTabline span {
+    padding-right: 30px;
+    padding-left: 10px;
+    font-size: 19px;
+}
+
+#chartContainer2,
+#chartContainer {
+    height: 207px;
+    width: 100%;
+}
+
+.userInfoDash .loc {
+    margin-top: -15px;
+}
+
+.profileTabline .active {
+    border-bottom: 4px solid #0b1539;
+    padding-bottom: 2px;
+}
+
+.profileTabline {
+    border-bottom: 1px solid lightgrey;
+}
+
+.updateButton {
+    text-align: center;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #0b1539;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.updateButton a,
+.updateButton button,
+.subInfo a {
+    background-color: #0b1539;
+    color: #fff;
+
+    text-decoration: none;
+}
+
+.updateButton2 button {
+    background-color: #0b1539;
+    color: #fff;
+    text-decoration: none;
+}
+
+.updateButton2:hover button,
+.subInfo a:hover {
+    background-color: #fff;
+    border: 1px solid #0b1539;
+    color: #0b1539;
+    text-decoration: none;
+}
+
+.headNAmeUSer {
+    font-size: 22px;
+    color: #0b1539;
+}
+
+.profile-head .nav-tabs {
+    margin-bottom: 5%;
+}
+
+.profile-head .nav-tabs .nav-link {
+    /*font-weight:600;*/
+    border: none;
+    color: #0b1539;
+}
+
+.serviceaSelect .nav-tabs .nav-item.show .nav-link, .serviceaSelect .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #0b1539;
+    border-color: #0b1539;
+}
+
+.serviceaSelect .nav-tabs a {
+    color: #0b1539;
+
+}
+
+.payMethod .cartButton {
+    margin: 0 5px !important;
+}
+
+.payMethod {
+    margin: 70px auto 0 auto;
+    text-align: center;
+}
+
+.cartButton:hover {
+    background-color: #0b1539;
+    color: #fff;
+    /*border: 1px solid #0b1539;*/
+}
+
+.serviceaSelect .nav-tabs {
+    border-bottom: 2px solid #0b1539;
+    margin-bottom: 20px;
+}
+
+.serviceaSelect .nav-tabs .nav-link:focus, .serviceaSelect .nav-tabs .nav-link:hover {
+    color: #fff;
+    background-color: #0b1539;
+}
+
+.profile-head .nav-tabs .nav-link.active {
+    border: none;
+    border-bottom: 4px solid #0b1539;
+    padding: 10px 0;
+    background: #0b1539;
+    color: #fff;
+    padding: 10px;
+}
+
+.nav-tabs {
+    border-bottom: 2px solid #0b1539;
+}
+
+.profile-work {
+    padding: 14%;
+    margin-top: -15%;
+}
+
+.profile-work p {
+    font-size: 12px;
+    color: #818182;
+    font-weight: 600;
+    margin-top: 10%;
+}
+
+.profile-work a {
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.profile-work ul {
+    list-style: none;
+}
+
+.profile-tab label {
+    font-weight: 600;
+}
+
+.profile-tab p {
+    font-weight: 300;
+    color: #0b1539;
+}
+
+.updateButton a:hover,
+.updateButton button:hover {
+    background-color: #fff;
+    color: #0b1539;
+    border: 1px solid #0b1539;
+}
+
+.styleData {
+    padding-right: 15pc;
+}
+
+.actDevice button {
+    background-color: #0b1539;
+    color: #fff;
+}
+
+.actDevice button:hover {
+    background-color: #fff;
+    color: #0b1539;
+    border: 2px solid #0b1539;
+}
+
+.dashData .profileImage img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #0b1539;
+    /*border-radius: 5%;*/
+    padding: 10px;
+    -webkit-box-shadow: 0 0 10px 1px #999;
+    -moz-box-shadow: 0 0 10px 1px #999;
+    box-shadow: 0 0 10px 1px #999;
+    min-height: 200px;
+}
+
+.modal-footer .btn-secondary {
+    background-color: red;
+}
+
+.subButton {
+    background-color: #0b1539;
+    color: #fff;
+}
+
+.subButton:hover {
+    border: 1px solid #0b1539;
+    background-color: #fff;
+    color: #0b1539;
+}
+
+.socialIcon ul {
+    padding: 0;
+    margin: 0;
+}
+
+.socialIcon ul li {
+    display: inline-block;
+    padding-right: 10px;
+
+}
+
+.socialIcon ul li i {
+    font-size: 25px;
+    color: #ECF0F1;
+}
+
+.lowFooter {
+    background-color: #0b1539;
+    color: #ECF0F1;
+    margin-bottom: 0;
+    padding: 17px 0;
+}
+
+.lowFooter p {
+    padding: 0;
+    margin: 0;
+}
+
+.power img {
+    margin-left: 5px;
+    width: 90px;
+    height: 10px;
+}
+
+.power p {
+    text-align: right;
+}
+
+.socialIcon ul li i:hover, .i ul li i:hover {
+    transform: scale(1.3);
+    transition: transform .2s;
+}
+
+.modal-footer .btn-secondary:hover {
+    background-color: #fff;
+    border: 1px solid red;
+    color: red;
+}
+
+.modal-footer .btn-primary {
+    background-color: #0b1539;
+    color: #fff;
+}
+
+.modal-footer .btn-primary:hover {
+    background-color: #fff;
+    color: #0b1539;
+    border: 1px solid #0b1539;
+}
+
+.rewardPoint {
+    text-align: center;
+}
+
+.newDataUpdate input {
+    margin-bottom: 20px;
+}
+
+.serviceImage {
+    width: 150px;
+    height: 150px;
+    /*text-align: center;*/
+    margin: 0 auto;
+}
+
+.addButtonInfo {
+    margin-top: 20px;
+    text-align: right;
+
+}
+
+.serviceImage img {
+    width: 100%;
+    height: 150px;
+}
+
+.service h4 {
+    text-align: center;
+    font-size: 18px;
+    color: #0b1539;
+    text-transform: uppercase;
+    padding: 30px 0 10px 0;
+}
+
+.service h5 {
+    text-align: center;
+    font-size: 18px;
+    color: #0b1539;
+    text-transform: uppercase;
+}
+
+.serviceBack,
+.myBike {
+    height: 280px;
+    width: 200px;
+    background-color: #fff;
+    color: #0b1539;
+    /*border:1px solid #0b1539;*/
+    border-radius: 0.65rem;
+    margin: 10px auto 30px auto;
+    text-align: center;
+    /*padding: 20px 0;*/
+    /*font-family: 'Poppins';*/
+
+}
+
+.myBike {
+    padding: 20px 0;
+}
+
+.bikeImgDash {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+
+}
+
+.bikeImgDash img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /*padding-top: 30px;*/
+}
+
+.myBike h5 {
+    font-weight: 600;
+    padding: 0 10px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+
+
+    margin: 0;
+
+}
+
+.orderStatus {
+    text-align: center;
+    /* margin: 0 auto; */
+    width: 100%;
+
+}
+
+.orderStatus ul li {
+    display: inline-block;
+    padding-right: 7px;
+    font-size: 14px;
+}
+
+/*.serviceBack:hover{
+	 transition: transform .2s;  Animation
+  width: 300px;
+
+  height: 300px;
+  margin: 0 auto;
+}*/
+.proa {
+    background-color: #0b1539;
+    color: #fff !important;
+    padding: 5px 20px;
+}
+
+.proa:hover {
+    background-color: #fff;
+    border: 1px solid #0b1539;
+    color: #0b1539 !important;
+}
+
+.serviceBack .btn,
+.myBike .btn {
+    font-size: 15px;
+    color: #0b1539;
+    background-color: #fff;
+    border: 1px solid #0b1539;
+}
+
+.serviceBack .btn:hover,
+.myBike .btn:hover {
+    background-color: #0b1539;
+    color: #fff !important;
+
+}
+
+.hvr-grow {
+
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+
+}
+
+.serviceBack img {
+    padding: 20px 48px;
+}
+
+.serviceBack p {
+    text-align: center;
+    font-weight: 600;
+}
+
+.serviceBack h6 {
+    text-align: center;
+    /*text-transform: uppercase;*/
+    font-size: 18px;
+    font-weight: 600;
+    min-height: 40px;
+    padding: 0 5px;
+}
+
+.newRowService {
+    margin-top: 40px;
+}
+
+.whiteSpaceData2 {
+    margin: 30px 0 0 30px;
+}
+
+.getAddNavs .nav-link {
+    margin: 30px 50px;
+    color: #0b1539;
+    background-color: #ECF0F1;
+    border: 4px solid #0b1539;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.getAddNavs .nav-link:hover {
+    color: #fff;
+    background-color: #0b1539;
+    border: none;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.getAddNavs .nav-link.active {
+    color: #fff;
+    background-color: #0b1539;
+    border: none;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.checkOutButton {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cartButton {
+    background-color: #fff;
+    color: #0b1539;
+    border: 1px solid #0b1539;
+}
+
+.getAddNavs .nav-tabs {
+    border-bottom: none;
+}
+
+.serviceD h3,
+.serviceD p,
+.dashD h3,
+.dashD p,
+.emD h3,
+.emD p,
+.bikeD p {
+    margin-left: 40px;
+}
+
+
+/*new Subscription*/
+.lightSubsription h5 {
+    background-color: #ececec;
+    color: #0b1539;
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid #0b1539;
+    /*border-radius: 7px;*/
+}
+
+.subDark {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.darkSubscirption h5 {
+    background-color: #0b1539;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    border: 1px solid #ececec;
+}
+
+.darkSubscirption h4 {
+    text-align: center;
+    background-color: #fff;
+    /*padding: 10px 0;*/
+}
+
+.subBor {
+    border: 1px solid #ececec;
+    margin: -1px 0;
+}
+
+.subBor p {
+    margin: 0;
+    border-bottom: 1px solid #ececec;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    background: #fff;
+}
+
+.sixMbutton {
+    background-color: #0b1539;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.sixMbutton2 {
+    background-color: #ececec;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.sixMbutton2 button {
+    border: 2px solid #0b1539;
+    color: #0b1539;
+    padding: 7px 20px;
+    /*background-color: #0b1539;*/
+}
+
+.sixMbutton button {
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 7px 20px;
+    background-color: #0b1539;
+}
+
+.sixMbutton button:hover {
+
+    color: #0b1539;
+    padding: 7px 20px;
+    background-color: #fff;
+}
+
+.subDark h3 {
+    font-size: 18px;
+    text-transform: none;
+    padding: 10px 0;
+}
+
+.subDark h4 {
+    font-size: 25px;
+}
+
+.newSubscription span {
+    position: absolute;
+
+}
+
+.newInf {
+    width: 250px;
+}
+
+.leftSub {
+    /*float: right;*/
+    margin-top: 40px;
+    margin-left: 25px;
+
+}
+
+.rightSub {
+    /*float: left;*/
+    margin-top: 40px;
+    margin-left: -25px;
+}
+
+.newInf:hover {
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+/*.newSubscription{
+	margin-top: 90px;
+}*/
+.subIcon {
+    background-color: #0b1539;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 30px;
+    line-height: 1.8;
+    height: 100px;
+    width: 100px;
+    top: -15%;
+    left: 38%;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.subIcon i {
+    font-size: 35px;
+}
+
+.canvasjs-chart-credit {
+    display: none;
+}
+
+.threeMonth {
+    background-color: #ececec;
+    color: #0b1539;
+}
+
+.newDashBack {
+    background-color: #ececec;
+    border: 1px solid #0b1539;
+    margin: 0 auto;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 0.25em;
+    /*font-family: 'Poppins';*/
+    text-transform: uppercase;
+    /*padding:30px 33px;*/
+
+}
+
+.newDashBack:hover {
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.newDashBack img {
+    height: 60%;
+    width: 65%;
+    margin-top: 10px;
+    /*padding-top: -30px;*/
+}
+
+.newDashBack a {
+    text-decoration: none;
+    color: #0b1539;
+}
+
+.newRowDash {
+    margin-top: 75px;
+}
+
+.ritghDashData {
+    border-left: 1px solid #ececec;
+}
+
+.ritghDashSelect .select-items div, .select-selected {
+    color: #ffffff;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+    /*margin-left: -45px;*/
+}
+
+.dashData1 {
+    margin-left: 50px;
+}
+
+.newDashBack p {
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: -1px;
+}
+
+.table {
+    font-size: 13.5px;
+}
+
+.number {
+    width: 15px;
+    height: 15px;
+    color: #fff;
+    border-radius: 50%;
+    float: right;
+    margin-top: -11px;
+    text-align: center;
+    background: red;
+}
+
+.number p {
+    font-size: 12px;
+    margin-top: -2px;
+
+    text-align: center !important;
+}
+
+.ritghDashData #chartContainer1,
+.ritghDashData #chartContainer2 {
+    height: 200px;
+    width: 100%;
+}
+
+.dashFootImg {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.dashFootImg img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.dashConact ul li,
+.dashabout ul li,
+.dashpolicy ul li,
+.dashresource ul li {
+    list-style-type: none;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.dashConact ul i {
+    padding-right: 10px;
+}
+
+.topFooterDash {
+    font-size: 15px;
+    background-color: #ececec;
+    padding: 50px 0;
+    /*	display: none;*/
+}
+
+.leftDashData {
+
+    padding: 20px 0;
+    /*overflow: none;*/
+
+}
+
+.bikeImgaeDetail {
+    padding: 20px;
+}
+
+.bikeImgaeDetail h6 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #0b1539;
+}
+
+.bikeImgTile {
+    box-shadow: 0 0 10px 1px #999;
+    border: 2px solid #0b1539;
+    width: auto;
+    height: 250px;
+}
+
+.bikeImgTile img {
+    width: 100%;
+    height: 100%;
+}
+
+.rightDashData {
+    background-color: #ECF0F1;
+    color: #0b1539;
+    padding: 25px 75px;
+}
+
+.bikeDescpriton p {
+    text-align: justify;
+}
+
+.whiteSpaceData {
+    padding: 25px;
+}
+
+.whiteSpaceData h5 {
+    color: #0b1539;
+    font-size: 25px;
+}
+
+.dashDataUp {
+    margin-top: 75px;
+}
+
+.rightDashData h5 {
+    color: #0b1539;
+    font-size: 25px;
+}
+
+.rightDashData p {
+    color: grey;
+}
+
+.chose {
+    margin-left: 20px;
+    margin-top: 27px;
+}
+
+.serviceDashBox {
+    background-color: #ECF0F1;
+    border-radius: 0.75em;
+    width: 180px;
+    height: 180px;
+    padding: 50px;
+}
+
+body {
+    background-color: #ECF0F1;
+}
+
+.serviceDashBox img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: -50px;
+    margin-bottom: -21px;
+}
+
+.newRowDashData {
+    margin-top: 30px;
+}
+
+.serviceDashBox p {
+    text-align: center;
+    margin-top: 13px;
+    color: #0b1539;
+    font-weight: 600;
+    font-size: 18px;
+    /*text-transform: uppercase;*/
+}
+
+.timeReadDash {
+    border-radius: 0.75em;
+    padding: 20px;
+    background-color: #fff;
+}
+
+#example1 {
+    border-radius: 10px;
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    margin-bottom: 15px;
+    padding: 0 10px;
+    height: 50px;
+}
+
+#example1:active {
+    outline: none;
+}
+
+#example1:focus {
+    outline: none;
+}
+
+.serviceLogo {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.serviceLogo2 {
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.profileDashBoad {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #0b1539;
+    border-radius: 50%;
+    /*margin: 0 50px;*/
+
+
+}
+
+.profileDashBoad img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+}
+
+.leftDashData {
+    margin: 0 auto;
+}
+
+.sidePInfo .welcome {
+    font-size: 14px;
+    padding: 15px 0 0 0;
+}
+
+.sidePInfo a {
+    color: #0b1539 !important;
+    text-decoration: none;
+}
+
+.sidePInfo a:hover {
+    color: grey;
+}
+
+.sidePInfo .sideName {
+    padding: 0;
+    margin-top: -18px;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.picInfoName {
+    border-bottom: 1px solid #ECF0F1;
+    padding: 0 0 10px 0;
+}
+
+.dashSideImg {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+
+}
+
+.dashSideImg img {
+    height: 15%;
+    width: 15%;
+    /*opacity: 0.5;*/
+    /*display: block;*/
+}
+
+.dashDataMenu a {
+    text-decoration: none;
+    color: grey;
+}
+
+.dashDataMenu .active {
+    font-weight: bold;
+    color: #0b1539;
+    opacity: 1;
+}
+
+.dashDataMenu a:hover {
+    font-weight: bold;
+    color: #0b1539;
+    opacity: 1;
+}
+
+.dashDataMenu {
+    margin-bottom: 13px;
+    margin-left: 15px;
+}
+
+.serviceDashBox:hover {
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bikeProfileBack {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0.25rem;
+}
+
+.selectBox {
+    margin-top: -70px;
+}
+
+.eBd h5 {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.dashBike h5 {
+    margin-bottom: 30px;
+}
+
+.table td, .table th {
+    padding: 15px 5.5px;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/*.table td{*/
+/*padding-bottom: 0;*/
+/*}*/
+.orderDash h5 {
+    margin-bottom: 30px;
+}
+
+.centerButton {
+    float: right;
+    margin-top: 115px;
+}
+
+.cartButton5 button {
+    font-size: 15px;
+    margin-top: -10px;
+
+}
+
+.dashRate .table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.dashRate button {
+    background-color: #0b1539;
+    border: none;
+    color: #fff;
+    font-weight: 300;
+}
+
+.dashRate button:hover {
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-weight: 300;
+}
+
+.dashcarTotal .table td, .table th {
+    padding: 15px 5px;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    font-size: 17px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.dashCartButton {
+    /*margin-top: 150px;*/
+    float: right;
+}
+
+.dashCartButton button {
+    background-color: #0b1539;
+    color: #fff;
+    /*border:1px solid #0b1539;*/
+}
+
+.dashCartButton button:hover {
+    border: 1px solid #0b1539;
+    background-color: #fff;
+    color: #0b1539;
+}
+
+/*.btn-outline-danger {*/
+/*background-color: #0b1539;*/
+/*color: #fff;*/
+/*padding-top: -10px;*/
+/*font-size: 13px;*/
+/*border: none;*/
+/*}*/
+.ritghPosData {
+    position: absolute;
+    right: 0;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+button:active {
+    outline: none
+}
+
+button:focus {
+    outline: none
+}
+
+/*.dashSelectTag .select-items div, .select-selected {
+    color: grey;
+    padding: 25px;
+    padding: 5px 0;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
+.dashSelectTag .select-selected {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0.65em;
+}
+*/
+
+.subGrpDash {
+    border-radius: 0.75em;
+    background-color: #fff;
+    padding: 15px 0;
+    /*width: 270px;*/
+
+}
+
+.subDate h6 {
+    text-align: center;
+    color: #0b1539;
+
+    font-weight: 600;
+}
+
+.subPrice {
+    background-color: #0b1539;
+    border-radius: 50%;
+    color: #fff;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.subItem2 {
+    margin-top: 70px;
+}
+
+.subPrice h5 {
+    color: #fff;
+    padding: 18px 5px;
+    /* background-color: #0b1539; */
+    text-align: center;
+    /* border-radius: 50%; */
+    font-size: 26px;
+}
+
+.subName {
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.subName h6 {
+    font-size: 16px;
+    color: #0b1539;
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+
+.subBackSlide {
+    margin-top: 30px;
+}
+
+/* width */
+.subService::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.subService::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+/* Handle */
+.subService::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+
+/* Handle on hover */
+.subService::-webkit-scrollbar-thumb:hover {
+    background: #0b1539;
+}
+
+.subService .subButtn {
+    margin-top: 30px !important;
+}
+
+.subService {
+    text-align: left;
+    padding: 0 20px;
+}
+
+.subService {
+    height: 200px;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+}
+
+.subService p {
+    color: #0b1539;
+    padding: 10px 0;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.subButtn {
+    text-align: center;
+}
+
+.subButtn a {
+    border: 1px solid #0b1539;
+    color: #0b1539;
+    font-size: 14px;
+    padding: 5px 0 !important;
+    border-radius: 0.25rem;
+    width: 40% !important;
+
+}
+
+.subButtn a:hover {
+    background-color: #0b1539;
+    color: #fff;
+}
+
+#owl .item .subBackSlide {
+    display: block;
+    width: auto;
+    height: 100%;
+    max-height: 23px;
+}
+
+.userProfileBack {
+    background-color: #fff;
+    padding: 10px 0 20px 0;
+    border-radius: 0.75em;
+}
+
+.userProfileBack2 {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 0.75em;
+    margin-top: -10px;
+}
+
+.rewardBack {
+    background: #fff;
+    padding: 30px;
+    border-radius: 0.75rem;
+    margin-bottom: 25px;
+}
+
+.rewardSection {
+    background-image: url("../images/rewardBack.png");
+    background-size: 60%;
+    background-position: center center;
+    /*height: 350px;*/
+    background-repeat: repeat repeat;
+
+}
+
+.ringReward {
+    width: 200px;
+    height: 200px;
+    margin: 15px auto;
+}
+
+.ringReward img {
+    width: 100%;
+    height: 100%;
+}
+
+.rewardNum {
+    position: absolute;
+    top: 17.5%;
+    left: 46%;
+    text-align: center;
+    /* text-transform: uppercase; */
+    font-size: 25px;
+
+}
+
+.rewardRing {
+    border: 7px solid #fa9054;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rewardRing .countReeard {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 0;
+    color: #cc1772;
+    font-weight: bold;
+}
+
+.rewardRing .pointReward {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fa9054;
+    text-align: center;
+}
+
+.getAddNavs p {
+    text-transform: none;
+    font-size: 17px;
+    padding: 10px 20px;
+}
+
+.getAddNavs i {
+    font-size: 60px;
+}
+
+.rewardNum h5 {
+    font-size: 40px;
+    color: #0b1539;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: -5px;
+
+}
+
+.ringReward p {
+    text-align: center;
+    margin-top: 25px;
+    color: #0b1539;
+    font-size: 25px;
+}
+
+.rewardInfo {
+    margin: 0 auto;
+
+}
+
+.rewardImgData {
+    width: 20px;
+
+    height: 20px;
+
+}
+
+.rankInfo {
+    text-align: center;
+}
+
+.rankInfo .active {
+    border: 2px solid #0b1539;
+    color: #0b1539;
+    opacity: 1;
+}
+
+.redemBack:hover {
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.redemBack {
+    border-radius: 0.75rem;
+    border: 1px solid #0b1539;
+    background: #ececec;
+    height: 165px;
+    width: 165px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+
+.redemBack img {
+    width: 80%;
+    height: 80%;
+    padding: 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+.reedem .modal-dialog {
+    max-width: 395px;
+}
+
+.redemBack p {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/*#showBenefits{
+	display: none;
+}*/
+.rewardDataNum {
+    margin-top: 10px;
+    opacity: 0.5;
+    margin-right: 10px;
+    border: 2px solid grey;
+    padding: 5px 10px;
+    color: grey;
+    border-radius: 0.55rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rewardImgData img {
+    width: 5.5%;
+    padding: 4px;
+    opacity: 0.5;
+    border: 2px solid grey;
+    border-radius: 0.55rem;
+    height: 22%;
+    margin-right: 20px;
+    margin-top: -8px;
+}
+
+.redemButon {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.redemButon button {
+    background-color: #0b1539;
+    color: #fff;
+    border-radius: 0.25rem;
+    padding: 5px 15px;
+}
+
+.redemButon button:hover {
+    background: #fff;
+    color: #0b1539;
+    border: 1px solid #0b1539;
+}
+
+.rewarBenefitButton {
+    margin-top: 20px;
+    width: 100%;
+    background: #fff;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 0.55rem;
+
+}
+
+.rewarBenefitButton .fa-chevron-down {
+    float: right;
+    padding-top: 5px;
+}
+
+.rightDashData a {
+    /*background: #fff;*/
+    color: #0b1539;
+    padding: 20px 5px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.subItem {
+    margin-top: 0;
+}
+
+.subItem .leftSub {
+    margin-left: 0;
+}
+
+.rank1Back {
+    background: #ECF0F1;
+    color: #0b1539;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    /*padding-top: 20px;*/
+    border-radius: 50%;
+}
+
+.rank1Back .rankNum {
+    color: #0b1539;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.rank1Back sup {
+    font-size: 15px;
+}
+
+.rank1Back .rankNAm {
+    font-size: 15px;
+    text-align: center;
+    padding: 0;
+    margin-top: -10px;
+    color: #0b1539;
+}
+
+#showBenefits {
+    margin-top: 30px;
+}
+
+.rankDetail p {
+    font-weight: inherit;
+    font-size: 15px;
+    color: #0b1539;
+
+}
+
+.rankDetail {
+    margin: 15px 0 65px 0;
+}
+
+.rankNum i {
+    text-align: center;
+    /*margin-top: -10px;*/
+}
+
+@media (min-width: 1919px)  and (max-width: 2399px) {
+    .serviceDashBox {
+        background-color: #fff;
+        border-radius: 0.75em;
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .profileDashBoad {
+        width: 60px;
+        height: 60px;
+        border: 1px solid #0b1539;
+        border-radius: 50%;
+        /* margin: 0 50px; */
+        margin-left: 25px;
+    }
+
+    .bikeprofileImage {
+        width: 345px;
+        height: 250px;
+        margin-top: 40px;
+        float: right;
+        position: absolute;
+        left: 46%;
+    }
+
+    .headNAmeUSer {
+        font-size: 29px;
+        color: #0b1539;
+    }
+
+    .profile-head .nav-tabs .nav-link {
+        font-weight: 600;
+        border: none;
+        color: #0b1539;
+        font-size: 18px;
+    }
+
+    .profile-head .nav-tabs .nav-link.active {
+        border: none;
+        border-bottom: 4px solid #0b1539;
+        padding: 10px 0;
+        background: #0b1539;
+        color: #fff;
+        padding: 10px 15px;
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    .userProfileBack form button {
+        background-color: #0b1539;
+        color: #fff;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .updateButton a, .updateButton button {
+        background-color: #0b1539;
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+
+    .profile-tab label {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .profile-tab p {
+        font-weight: 300;
+        color: #0b1539;
+        font-size: 20px;
+    }
+
+    .rewardPoint p {
+        font-size: 23px;
+    }
+
+    .selectBox {
+        margin-top: 0;
+    }
+
+    .serviceDashBox p {
+        text-align: center;
+        margin-top: 30px;
+        color: #0b1539;
+        /* font-weight: 600; */
+        font-size: 20px;
+        /* text-transform: uppercase; */
+    }
+
+    .newDashBack {
+        background-color: #ECF0F1;
+        border: 1px solid #0b1539;
+        margin: 0 auto;
+        text-align: center;
+        width: 250px;
+        height: 250px;
+        border-radius: 0.25em;
+        /*font-family: 'Poppins';*/
+        text-transform: uppercase;
+        padding: 3px;
+    }
+
+    .dashData .custom-select {
+        position: relative;
+        font-family: Arial;
+        padding: 0;
+        margin-bottom: 10px;
+        width: 95px;
+        margin-right: 60px;
+    }
+
+    .newDashBack p {
+        margin-top: 15px;
+        font-size: 25px;
+    }
+
+    .ritghDashData #chartContainer1,
+    .ritghDashData #chartContainer2 {
+        height: 280px;
+        width: 100%;
+    }
+
+
+    .newDashBack img {
+        height: 60%;
+        width: 65%;
+        margin-top: 25px;
+    }
+
+    .dashData {
+        /*padding: 50px 0 176px 0;*/
+    }
+
+    .dashDataMenu {
+        margin-bottom: 15px;
+        margin-left: 15px;
+        /*padding: 17px 0px;*/
+    }
+
+    .sideNav {
+        background-color: #ECF0F1;
+        color: #0b1539;
+        text-align: center;
+        padding: 44px 0 858px 0px;
+    }
+
+    .mainDash .sideNav {
+        padding: 20px 0 539px 0;
+    }
+
+    .sideNav ul li {
+        display: block;
+        padding: 10px 0 40px 0;
+        height: 48px;
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+    }
+
+    .subsDash {
+        padding-top: 0;
+    }
+
+    .leftSub {
+        /* float: right; */
+        margin-top: 40px;
+        margin-left: 240px;
+    }
+
+    .rightSub {
+        /* float: left; */
+        margin-top: 40px;
+        margin-left: -240px;
+    }
+
+    .dashDataMenu a {
+        text-decoration: none;
+        color: grey;
+        font-size: 15px;
+    }
+
+    .table thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #dee2e6;
+        padding: 10px 46px;
+    }
+
+    .orderSuccess,
+    .orderProcess,
+    .orderPending,
+    .orderCancel {
+
+        padding: 5px 15px;
+
+
+    }
+
+    .sideNav ul li a {
+        color: #0b1539;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .serviceBack, .myBike {
+        height: 370px;
+        width: 300px;
+        background-color: #fff;
+        color: #0b1539;
+        /* border: 1px solid #0b1539; */
+        border-radius: 0.65rem;
+        margin: 20px auto;
+        text-align: center;
+        /*font-family: 'Poppins';*/
+    }
+
+    .serviceBack img {
+        padding: 50px 35px;
+    }
+
+    .serviceBack h6 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    .serviceBack p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .serviceBack button, .myBike button {
+        font-size: 18px;
+        color: #fff;
+        /*background-color: #0b1539;*/
+    }
+
+    .rightDashData h5 {
+        /*color: #0b1539;*/
+        font-size: 30px;
+    }
+
+    .whiteSpaceData h5 {
+        /*color: #0b1539;*/
+        font-size: 35px;
+    }
+
+}
+
+@media (min-height: 1050px) and (max-height: 1090px) {
+    .dashDataMenu {
+        padding: 15px 0;
+    }
+
+    .rightDashData p {
+        margin-bottom: 50px;
+    }
+
+    .rightDashData {
+        margin-top: 20px;
+    }
+
+    .serviceLogo {
+        position: absolute;
+        top: 22%;
+        left: 46%;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+
+    .serviceLogo2 {
+        position: absolute;
+        top: 52.5%;
+        left: 47%;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+
+    .whiteSpaceData {
+        padding: 45px 75px;
+    }
+
+    .whiteSpaceData h5 {
+        margin-bottom: 30px;
+    }
+
+    .subBackSlide {
+        border-radius: 0.75em;
+        background-color: #fff;
+        padding: 15px 0;
+        width: 445px;
+        border: 0px solid;
+    }
+
+    .subPrice {
+        background-color: #0b1539;
+        border-radius: 50%;
+        color: #fff;
+        height: 150px;
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .subPrice h5 {
+        font-size: 40px;
+    }
+
+    .subService p {
+        /*color: #0b1539;*/
+        font-size: 20px;
+        padding: 5px 0;
+        margin-bottom: 0;
+    }
+
+    .subName h6 {
+        font-size: 20px;
+        color: #0b1539;
+        font-weight: 600;
+        margin-bottom: -15px;
+    }
+
+    .subDate h6 {
+        text-align: center;
+        color: #0b1539;
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .sidePInfo .welcome {
+        font-size: 25px;
+        padding: 15px 0 0 0;
+    }
+
+    .sidePInfo .sideName {
+        padding: 0;
+        margin-top: -18px;
+        font-size: 25px;
+    }
+
+    .profileDashBoad {
+        width: 90px;
+        height: 90px;
+        border: 1px solid #0b1539;
+        border-radius: 50%;
+        /* margin: 0 50px; */
+    }
+
+}
+
+@media (min-height: 970px) and (max-height: 1025px) {
+    .dashDataMenu {
+        padding: 13px 0;
+    }
+
+    .rightDashData p {
+        margin-bottom: 30px;
+    }
+
+    .whiteSpaceData {
+        padding: 45px 75px;
+    }
+
+    .serviceLogo {
+        position: absolute;
+        top: 22%;
+        left: 46.5%;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+
+    .serviceLogo2 {
+        position: absolute;
+        top: 52.5%;
+        left: 46%;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+
+    .subPrice {
+        background-color: #0b1539;
+        border-radius: 50%;
+        color: #fff;
+        height: 150px;
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    #chartContainer2, #chartContainer {
+        height: 215px;
+        width: 100%;
+    }
+
+    .subPrice h5 {
+        font-size: 40px;
+    }
+
+    .subService p {
+        /*color: #0b1539;*/
+        font-size: 22px;
+        padding: 5px 0;
+        margin-bottom: 0;
+    }
+
+    .subName h6 {
+        font-size: 25px;
+        color: #0b1539;
+        font-weight: 600;
+        margin-bottom: -5px;
+    }
+
+    .subDate h6 {
+        text-align: center;
+        color: #0b1539;
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+
+}
+
+
+@media (min-height: 900px) and (max-height: 969px) {
+    .dashDataMenu {
+        padding: 10px 7px;
+    }
+
+    .iconDash {
+        padding-right: 15px;
+        padding-left: 13px;
+        opacity: 0.5;
+        font-size: 35px;
+    }
+
+    .rewardImgData img {
+        width: 3.5%;
+        padding: 4px;
+        opacity: 0.5;
+        border: 2px solid grey;
+        border-radius: 0.55rem;
+        height: 22%;
+        margin-right: 20px;
+        margin-top: -8px;
+    }
+
+    .rewardNum {
+        position: absolute;
+        top: 15.5%;
+        left: 47%;
+        text-align: center;
+        /* text-transform: uppercase; */
+        font-size: 25px;
+    }
+
+    .rightDashData p {
+        margin-bottom: 30px;
+    }
+
+    .rewardNum h5 {
+        font-size: 80px !important;
+        color: #0b1539;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: -5px;
+    }
+
+    .rewardSection {
+        background-image: url(../images/rewardBack.png);
+        background-size: 40%;
+        background-position: center center;
+        height: 350px;
+        background-repeat: repeat;
+    }
+
+    .serviceLogo {
+        position: absolute;
+        top: 22%;
+        left: 46%;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+
+    .serviceDashBox {
+        background-color: #ECF0F1;
+        border-radius: 0.75em;
+        width: 218px;
+        height: 195px;
+        padding: 55px;
+    }
+
+    .serviceLogo2 {
+        position: absolute;
+        top: 52.5%;
+        left: 46.5%;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+
+    .subPrice {
+        background-color: #0b1539;
+        border-radius: 50%;
+        color: #fff;
+        height: 150px;
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .subPrice h5 {
+        font-size: 40px;
+    }
+
+    .subService p {
+        /*color: #0b1539;*/
+        font-size: 22px;
+        padding: 5px 0;
+        margin-bottom: 0;
+    }
+
+    .subName h6 {
+        font-size: 25px;
+        color: #0b1539;
+        font-weight: 600;
+        margin-bottom: -5px;
+    }
+
+    .subDate h6 {
+        text-align: center;
+        color: #0b1539;
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .sidePInfo .welcome {
+        font-size: 15px;
+        padding: 15px 0 0 0;
+    }
+
+    .sidePInfo .sideName {
+        padding: 0;
+        margin-top: -18px;
+        font-size: 15px;
+    }
+
+    .serviceLogo {
+        position: absolute;
+        top: 27%;
+        left: 46%;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+
+    .serviceLogo2 {
+        position: absolute;
+        top: 70%;
+        left: 46%;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+
+    #chartContainer2, #chartContainer {
+        height: 200px;
+        width: 100%;
+    }
+
+    #chartContainer2 {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (min-height: 650px) and (max-height: 700px) {
+    .serviceLogo {
+        position: absolute;
+        top: 23%;
+        left: 46%;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+
+    .dashDataMenu {
+        padding: 3px 0;
+    }
+
+    .serviceLogo2 {
+        position: absolute;
+        top: 69%;
+        left: 46%;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+}
+
+@media (min-height: 710px) and (max-height: 730px) {
+    .rewardImgData img {
+        width: 5%;
+        padding: 4px;
+        opacity: 0.5;
+        border: 2px solid grey;
+        border-radius: 0.55rem;
+        height: 22%;
+        margin-right: 20px;
+        margin-top: -8px;
+    }
+}
+
+@media (min-height: 1800px) and (max-height: 1900px) {
+    .rewardImgData img {
+        width: 4%;
+        padding: 4px;
+        opacity: 0.5;
+        border: 2px solid grey;
+        border-radius: 0.55rem;
+        height: 22%;
+        margin-right: 20px;
+        margin-top: -8px;
+    }
+}
+
+@media (min-width: 2650px) and (max-width: 2802px) {
+    .rightDashData p {
+        color: grey;
+        font-size: 40px;
+    }
+
+    .serviceDashBox {
+        /* background-color: #fff; */
+        border-radius: 1.75em;
+        width: auto;
+        height: 500px;
+        padding: 120px;
+    }
+
+    #chartContainer2,
+    #chartContainer {
+        height: 20px;
+        width: 10%;
+    }
+
+    .selectBox {
+        margin-top: 0;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        font-weight: 600;
+        padding-left: 35px;
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .bigScreen {
+        margin-top: 135px;
+    }
+
+    .serviceDashBox p {
+        font-size: 45px;
+        margin-top: -5px;
+    }
+
+    #example1 {
+        border-radius: 10px;
+        width: 100%;
+        border: none;
+        margin-bottom: 15px;
+        padding: 0 20px;
+        height: 100px;
+        font-size: 30px;
+    }
+
+    .whiteSpaceData h5 {
+        color: #0b1539;
+        font-size: 55px;
+        margin: 50px 0;
+    }
+
+    .headNAmeUSer {
+        font-size: 45px;
+        color: #0b1539;
+    }
+
+    .profile-head .nav-tabs .nav-link {
+        font-weight: 600;
+        border: none;
+        color: #0b1539;
+        font-size: 35px;
+        padding: 17px 40px;
+    }
+
+    .profile-tab label {
+        font-weight: 600;
+        font-size: 45px;
+        padding: 7px 0;
+    }
+
+    .profile-tab p {
+        font-weight: 300;
+        color: #0b1539;
+        padding: 7px 0;
+        font-size: 45px;
+    }
+
+    .updateButton a, .updateButton button {
+        background-color: #0b1539;
+        color: #fff;
+        text-decoration: none;
+        font-size: 30px;
+        padding: 20px 25px;
+    }
+
+    .modal-title {
+        margin-bottom: 0;
+        line-height: 2.5;
+        font-size: 33px;
+    }
+
+    #profile-form input {
+        margin: 20px 0;
+        height: 51px;
+    }
+
+    #profile-form button {
+        text-align: center;
+        background-color: #0b1539;
+        padding: 10px 29px;
+        font-size: 26px;
+    }
+
+    .table td, .table th {
+        padding: 33px 15px;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6;
+        font-size: 35px;
+    }
+
+    .orderSuccess,
+    .orderProcess,
+    .orderCancel,
+    .orderPending {
+
+        padding: 10px 25px;
+
+    }
+
+    .modal-content p {
+        font-size: 23px;
+    }
+
+    ::-webkit-input-placeholder {
+        color: peachpuff;
+        font-size: 25px;
+    }
+
+    ::-moz-placeholder {
+        color: peachpuff;
+        font-size: 25px;
+    }
+
+    :-ms-input-placeholder {
+        color: peachpuff;
+        font-size: 25px;
+    }
+
+    ::placeholder {
+        color: peachpuff;
+        font-size: 25px;
+    }
+
+    .profile-head .nav-tabs .nav-link.active {
+        border: none;
+        border-bottom: 5px solid #0b1539;
+        padding: 15px 25px;
+    }
+
+    .profileImage {
+        width: 400px;
+        height: 400px;
+        margin: 30px auto;
+    }
+
+    .userProfileBack {
+        background-color: #fff;
+        padding: 50px;
+        border-radius: 0.75em;
+    }
+
+    .rewardPoint p {
+        font-size: 35px;
+    }
+
+    .serviceBack, .myBike {
+        height: 600px;
+        width: 500px;
+        background-color: #fff;
+        color: #0b1539;
+        /* border: 1px solid #0b1539; */
+        border-radius: 1.25rem;
+        margin: 20px auto;
+        text-align: center;
+        padding: 30px 0;
+        /*font-family: 'Poppins';*/
+    }
+
+    .serviceBack img {
+        padding: 70px 70px 100px 80px;
+        height: 70%;
+        width: 70%;
+    }
+
+    .showTable a {
+        font-size: 40px;
+    }
+
+    .serviceBack h6 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 35px;
+        margin-top: -35px;
+    }
+
+    .serviceBack p {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .serviceBack button, .myBike button {
+        font-size: 35px;
+        color: #fff;
+        background-color: #0b1539;
+    }
+
+    .showTable button {
+        font-size: 35px;
+        padding: 40px;
+        border-radius: 0.75em;
+    }
+}
+
+
+@media (min-height: 1800px) and (max-height: 2100px) {
+    .dashDataMenu {
+        padding: 20px 10px;
+    }
+
+    .serviceaSelect .container {
+        max-width: 100% !important;
+    }
+
+    .buyBikeImg {
+        height: 400px;
+    }
+
+    .buyBikeInfo a {
+        font-size: 33px;
+    }
+
+    .buyBikeInfo p,
+    .iconGrp i {
+        font-size: 28px;
+    }
+
+    .iconDash {
+        padding-right: 15px;
+        padding-left: 20px;
+        opacity: 0.5;
+        font-size: 60px;
+    }
+
+    .myBike h5 {
+        font-weight: 600;
+        padding: 0 10px;
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    .subInfo p {
+        font-size: 30px;
+    }
+
+    .subInfo a {
+        background-color: #0b1539;
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 15px 20px;
+    }
+
+    .headSubs,
+    .subInfo {
+        margin-left: 0;
+        padding: 25px;
+
+    }
+
+    .rewarBenefitButton {
+        padding: 30px;
+    }
+
+    .rightDashData a,
+    .serviceBack .btn,
+    .myBike .btn {
+        font-size: 35px !important;
+    }
+
+    .redemButon {
+        margin-top: 50px;
+    }
+
+    .reedem .modal-dialog {
+        max-width: 480px;
+    }
+
+    .serviceaSelect .nav-tabs a {
+
+        color: #0b1539;
+        font-size: 30px;
+        padding: 10px 50px;
+    }
+
+    .subGrp {
+        margin-bottom: 50px;
+    }
+
+    .headSubs h6 {
+        font-size: 30px;
+    }
+
+    .bikeImgDash {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .rewardSection {
+        background-image: url(../images/rewardBack.png);
+        background-size: 50%;
+        background-position: center center;
+        height: auto;
+        background-repeat: repeat;
+        padding: 295px 0;
+    }
+
+    .rewardNum h5 {
+        font-size: 150px !important;
+        color: #0b1539;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: -5px;
+    }
+
+    .rewardDataNum {
+        margin-top: 10px;
+        opacity: 0.5;
+        margin-right: 10px;
+        border: 2px solid grey;
+        padding: 22px 25px;
+        color: grey;
+        border-radius: 0.55rem;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .rank1Back {
+        background: #ECF0F1;
+        color: #0b1539;
+        height: 160px;
+        width: 160px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        /* padding-top: 20px; */
+        border-radius: 50%;
+    }
+
+    .rank1Back .rankNum {
+        color: #0b1539;
+        font-size: 60px;
+        text-align: center;
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .rank1Back .rankNAm {
+        font-size: 24px;
+        text-align: center;
+        padding: 0;
+        margin-top: -13px;
+        color: #0b1539;
+    }
+
+    .rightDashData a {
+        /* background: #fff; */
+        color: #0b1539;
+        padding: 20px 5px;
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .ringReward {
+        width: 350px;
+        height: 350px;
+        margin: 15px auto;
+    }
+
+    .redemButon button {
+        background-color: #0b1539;
+        color: #fff;
+        border-radius: 0.25rem;
+        padding: 13px 55px;
+        font-size: 29px;
+    }
+
+    .rewardNum {
+        position: absolute;
+        top: 26%;
+        left: 46.5%;
+        text-align: center;
+        /* text-transform: uppercase; */
+        font-size: 60px;
+    }
+
+    .rightDashData h5 {
+        color: #0b1539;
+        font-size: 60px;
+        margin-top: 30px;
+    }
+
+    .subPrice {
+        background-color: #0b1539;
+        border-radius: 50%;
+        color: #fff;
+        height: 150px;
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .subPrice h5 {
+        font-size: 45px;
+        color: #fff;
+    }
+
+    .userProfileBack2 {
+        background-color: #fff;
+        padding: 85px 70px;
+        border-radius: 0.75em;
+        margin-top: -10px;
+    }
+
+    .subService p {
+        /*color: #0b1539;*/
+        font-size: 22px;
+        padding: 5px 0;
+        margin-bottom: 0;
+    }
+
+    .bikeprofileImage {
+        width: 700px;
+        height: 460px;
+        margin-top: 40px;
+        position: absolute;
+        left: 30%;
+        top: 10%;
+    }
+
+    .subName h6 {
+        font-size: 25px;
+        color: #0b1539;
+        font-weight: 600;
+        margin-bottom: -5px;
+    }
+
+    .subDate h6 {
+        text-align: center;
+        color: #0b1539;
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .subBackSlide {
+        border-radius: 0.75em;
+        background-color: #fff;
+        padding: 15px 0;
+        width: 670px;
+    }
+
+    .sidePInfo .welcome {
+        font-size: 35px;
+        margin-left: 20px;
+        padding: 15px 0 0 0;
+    }
+
+    .sidePInfo .sideName {
+        margin-left: 20px;
+        margin-top: -18px;
+        font-size: 35px;
+    }
+
+    .profileDashBoad {
+        width: 120px;
+        height: 120px;
+        border: 1px solid #0b1539;
+        border-radius: 50%;
+        margin: 0 50px;
+    }
+
+    .dashSideImg img {
+        height: 50%;
+        width: 20%;
+        opacity: 0.5;
+        /* display: block; */
+    }
+
+    .dashDataMenu a {
+        text-decoration: none;
+        color: grey;
+        font-size: 35px;
+    }
+
+    .bikeImgTile {
+        height: 400px;
+    }
+
+    .bikeImgaeDetail {
+        padding: 0 150px;
+    }
+
+    .feaetureList {
+        margin-top: -40px;
+        margin-left: 185px;
+        margin-bottom: -15px;
+        font-size: 30px;
+    }
+
+    .bikeInfo p,
+    .bikeDescpriton p,
+    .bikeImgaeDetail p {
+        font-size: 30px;
+    }
+
+    .bikeImgaeDetail h6 {
+        margin-bottom: 50px;
+        font-size: 35px;
+        margin-top: 35px;
+    }
+
+    .bikeInfo .bikeinfoTitle {
+        font-size: 30px;
+        width: 280px;
+    }
+
+    #chartContainer2, #chartContainer {
+        height: 425px;
+        width: 100%;
+    }
+
+    #chartContainer {
+        margin-top: 30px;
+    }
+
+    .timeReadDash {
+        border-radius: 1.75em;
+        padding: 50px 20px;
+        background-color: #fff;
+    }
+
+    .serviceLogo p,
+    .serviceLogo2 p {
+        font-size: 50px;
+        color: #0b1539;
+        background: #fff;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    .serviceLogo {
+        position: absolute;
+        top: 26.5%;
+        left: 41%;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+
+    .serviceLogo2 {
+        position: absolute;
+        top: 68.5%;
+        left: 41%;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+
+    .rateTable button, .subscibeTable button {
+        border: 1px solid #0b1539;
+        padding: 10px 15px;
+        font-size: 36px;
+        /* margin: 5px 0; */
+        background: #0b1539;
+        color: #fff;
+    }
+
+    .userProfileBack input {
+        margin-bottom: 25px;
+        width: 900px;
+        height: 90px;
+    }
+
+    .userProfileBack form button {
+        background-color: #0b1539;
+        color: #fff;
+        padding: 20px;
+        font-size: 35px;
+    }
+
+}
+
+@media screen and (min-height: 720px) and (max-height: 750px) {
+    .dashDataMenu {
+        padding: 4px 0;
+    }
+
+    .orderStatus {
+        margin: 0;
+        width: 100%;
+    }
+
+    .serviceDashBox {
+        background-color: #ECF0F1;
+        border-radius: 0.75em;
+        width: 210px;
+        height: 210px;
+        padding: 55px;
+        margin: 0px auto;
+    }
+
+    .timeReadDash {
+        border-radius: 0.75em;
+        padding: 40px 20px;
+        background-color: #fff;
+    }
+}
+
+@media screen and (min-height: 720px) and (max-height: 780px) {
+
+    .serviceLogo2 {
+        position: absolute;
+        top: 67%;
+        left: 46.5%;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+
+    .serviceLogo {
+        position: absolute;
+        top: 25%;
+        left: 46%;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+
+
+}
+
+@media screen and (min-height: 950px) and (max-height: 1050px) {
+    .serviceDashBox {
+        background-color: #ECF0F1;
+        border-radius: 0.75em;
+        width: auto;
+        height: 250px;
+        /*padding: 105px;*/
+    }
+
+    .myBike h5 {
+        font-size: 20px;
+    }
+
+    .bikeImgDash {
+        width: 150px;
+        height: 150px;
+    }
+
+    .myBike {
+        padding: 40px 0;
+    }
+
+    .subGrpDash {
+        border-radius: 0.75em;
+        background-color: #fff;
+        padding: 15px 0;
+        width: 370px;
+        margin: 35px auto;
+    }
+
+    .serviceaSelect .container {
+        max-width: 100% !important;
+    }
+
+    .buyBikeImg {
+        /*position: relative;*/
+        width: auto;
+        height: 235px;
+    }
+
+    .dashDataMenu a {
+        text-decoration: none;
+
+        font-size: 20px;
+    }
+
+    .bikeImgaeDetail h6 {
+        font-size: 23px;
+    }
+
+    .buyBikeInfo a,
+    .bikeInfo p,
+    .bikeImgaeDetail .float-left,
+    .bikeImgaeDetail .float-right,
+    .feaetureList li,
+    .bikeDescpriton p {
+        font-size: 20px;
+    }
+
+    .feaetureList ul {
+        margin-left: 30px;
+    }
+
+    .buyBikeInfo p {
+        font-size: 17px;
+    }
+
+    .bikeImgTile {
+        height: 300px;
+    }
+
+    .serviceDashBox img {
+        width: 50%;
+        height: 70%;
+        margin: -30px auto 0 auto;
+    }
+
+    .serviceDashBox p {
+        text-align: center;
+        margin-top: -5px;
+        color: #0b1539;
+        /* font-weight: 600; */
+        font-size: 20px;
+        /* text-transform: uppercase; */
+    }
+
+    .timeReadDash {
+        border-radius: 0.75em;
+        padding: 45px 20px;
+        background-color: #fff;
+    }
+
+    .serviceLogo {
+        position: absolute;
+        top: 33% !important;
+        left: 47%;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+
+    .serviceLogo2 {
+        position: absolute;
+        top: 72%;
+        left: 47%;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: 0.3s;
+    }
+}
+
+@media (min-height: 935px) and (max-height: 937px) {
+    .serviceDashBox {
+        background-color: #ECF0F1;
+        border-radius: 0.75em;
+        width: auto;
+        height: 280px;
+        padding: 55px;
+    }
+
+    .myBike h5 {
+        font-size: 20px;
+    }
+
+    .bikeImgDash {
+        width: 150px;
+        height: 150px;
+    }
+
+    .myBike {
+        padding: 40px 0;
+    }
+
+    .subGrpDash {
+        border-radius: 0.75em;
+        background-color: #fff;
+        padding: 15px 0;
+        width: 370px;
+        margin: 30px auto;
+    }
+
+    .addButtonInfo,
+    .updateButton {
+        margin: 15px;
+    }
+
+    .serviceDashBox img {
+        width: 60%;
+        height: 75%;
+        display: block;
+        margin-top: -30px;
+        margin-bottom: -21px;
+        margin-left: 40px;
+    }
+
+    .serviceDashBox p {
+        text-align: center;
+        margin-top: 20px;
+        color: #0b1539;
+        /* font-weight: 600; */
+        font-size: 25px;
+        /* text-transform: uppercase; */
+    }
+
+    .serviceLogo {
+        top: 26%;
+        left: 47%;
+    }
+
+    .timeReadDash {
+        border-radius: 0.75em;
+        padding: 20px;
+        background-color: #fff;
+        height: 580px;
+    }
+
+    .profileImage {
+        width: 300px;
+        height: 300px;
+        margin: 30px auto;
+    }
+
+    .serviceLogo2 {
+
+        top: 61%;
+        left: 47%;
+    }
+
+    .subInfo {
+        padding: 20px;
+    }
+
+    .userProfileBack2 {
+        padding: 40px;
+    }
+
+
+    .profile-head .nav-tabs {
+        margin-bottom: 2%;
+    }
+
+    .dashDataMenu a {
+
+        font-size: 20px;
+    }
+
+    .serviceaSelect .container {
+        max-width: 100% !important;
+    }
+
+    .buyBikeImg {
+        height: 300px;
+    }
+
+    .buyBikeInfo a {
+        font-size: 23px;
+    }
+
+    .buyBikeInfo p {
+        font-size: 18px;
+    }
+
+    .bikeInfo .bikeinfoTitle,
+    .bikeInfo .bikeinfoTitle2 {
+        font-size: 20px;
+        background-color: #0b1539;
+        color: #fff;
+        width: 220px;
+    }
+
+    .bikeProfileBack {
+        padding: 40px;
+    }
+
+    .bikeInfo p {
+        margin-bottom: 0;
+        padding-bottom: 20px;
+        font-size: 23px;
+    }
+
+    .bikeDescpriton p,
+    .bikeImgaeDetail p {
+        font-size: 23px;
+    }
+
+    .bikeImgaeDetail h6 {
+        font-size: 25px;
+    }
+
+    .bikeImgTile {
+        height: 350px;
+    }
+
+    .iconGrp p {
+        font-weight: bold;
+        font-size: 16px;
+    }
+}
