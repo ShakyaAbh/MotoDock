@@ -15,13 +15,9 @@ let User = new Schema({
         type: String,
         required: true
     },
-    password: {
+    image: {
         type: String,
-        required: true
-    },
-    username: {
-        type: String,
-        required: true
+        default: ''
     },
     admin: {
         type: Boolean,

@@ -20,10 +20,6 @@ var mechanicsSchema = new Schema({
         type: Number,
         required: true
     },
-    shift: {
-        type: String,
-        required: true
-    },
     image: {
         type: String,
         default: ''

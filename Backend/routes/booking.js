@@ -7,6 +7,11 @@ var router = express.Router();
 router.route('/')
     .get((req, res, next) => {
         Bookings.find({})
+        .populate('bike', 'model')
+        .populate('service', 'price name')
+        .populate('mechanic', 'firstName')
+
+
             .then((bookings) => {
                 res.statusCode = 200;
                 res.setHeader('Content-Type', 'application/json');
@@ -36,10 +41,37 @@ router.route('/')
             }, (err) => next(err))
             .catch((err) => next(err));
     });
+    router.route('/user')
+    .get((req, res, next) => {
+        Bookings.find({user: req.query.user})
+        .populate('bike' ,'model')
+        .populate('service', 'price name')
+        .populate('mechanic', 'firstName')
+            .then((bikes) => {
+                res.statusCode = 200;
+                res.setHeader('Content-Type', 'application/json');
+                res.json(bikes);
+            }, (err) => next(err))
+            .catch((err) => next(err));
+    });
 
+    router.route('/book')
+    .get((req, res, next) => {
+        Bookings.find({book_status: req.query.book})
+        .populate('bike' ,'model')
+        .populate('service', 'price name')
+        .populate('mechanic', 'firstName')
+            .then((bikes) => {
+                res.statusCode = 200;
+                res.setHeader('Content-Type', 'application/json');
+                res.json(bikes);
+            }, (err) => next(err))
+            .catch((err) => next(err));
+    });
+    
 router.route('/:id')
     .get((req, res, next) => {
-        Mechanics.findById(req.params.id)
+        Bookings.findById(req.params.id)
             .then((mechanic) => {
                 res.statusCode = 200;
                 res.setHeader('Content-Type', 'application/json');
@@ -52,7 +84,7 @@ router.route('/:id')
         res.end("POST operation not supported!");
     })
     .put((req, res, next) => {
-        Mechanics.findByIdAndUpdate(req.params.id, { $set: req.body }, { new: true, useFindAndModify: false })
+        Bookings.findByIdAndUpdate(req.params.id, { $set: req.body }, { new: true, useFindAndModify: false })
             .then((mechanic) => {
                 res.statusCode = 200;
                 res.setHeader('Content-Type', 'application/json');
@@ -60,43 +92,9 @@ router.route('/:id')
             }, (err) => next(err))
             .catch((err) => next(err));
     });
+  
+    
 
 
-// router.route('/:id/comments')
-//     .get((req, res, next) => {
-//         Heroes.findById(req.params.id)
-//             .then((hero) => {
-//                 if (hero != null) {
-//                     res.statusCode = 200;
-//                     res.setHeader('Content-Type', 'application/json');
-//                     res.json(hero.comments);
-//                 }
-//                 else {
-//                     err = new Error('Hero ' + req.params.id + ' not found');
-//                     err.status = 404;
-//                     return next(err);
-//                 }
-//             }, (err) => next(err))
-//             .catch((err) => next(err));
-//     })
-//     .post((req, res, next) => {
-//         Heroes.findById(req.params.id)
-//             .then((hero) => {
-//                 if (hero != null) {
-//                     hero.comments.push(req.body);
-//                     hero.save()
-//                         .then((hero) => {
-//                             res.statusCode = 200;
-//                             res.setHeader('Content-Type', 'application/json');
-//                             res.json(hero);
-//                         }, (err) => next(err));
-//                 } else {
-//                     err = new Error('Hero ' + req.params.id + ' not found');
-//                     err.status = 404;
-//                     return next(err);
-//                 }
-//             }, (err) => next(err))
-//             .catch((err) => next(err));
-//     });
 
 module.exports = router;

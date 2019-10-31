@@ -4,23 +4,36 @@ var Schema = mongoose.Schema;
 
 
 var bookingsSchema = new Schema({
-    company: {
-        type: String,
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User',
         required: true
     },
-    model: {
-        type: String,
+    bike: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Bike',
         required: true
     },
-    registration: {
-        type: String,
+    service: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Part',
         required: true
     },
-    color: {
+    book_status: {
         type: String,
-        required: true
+        default: 'Pending'
     },
-    query: {
+    payment:{
+        type: String,
+        default: 'Not Done'
+    },
+    mechanic: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Mechanic',
+        default:"5dadaf85f39b4260fce409ac"
+    },
+
+    date: {
         type: String,
         required: true
     },
