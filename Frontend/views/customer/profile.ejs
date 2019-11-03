@@ -187,8 +187,10 @@ aria-hidden="true">
     <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
     <script src="/assets/twn/js/smooth-scroll.js"></script>
     <script src="/assets/twn/js/scripts.js"></script>
+    <script src="/assets/twn/js/logout.js"></script>
+
     <script>
-    var x= getCookie('userCookie');
+    var x= localStorage.getItem('user');
 
 let base_url = 'http://localhost:3000/';
 $.ajax({

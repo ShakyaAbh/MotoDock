@@ -1,5 +1,5 @@
 <script>
- var y= getCookie('userCookie');
+ var y= localStorage.getItem('user');
 
 let base_url = 'http://localhost:3000/';
 let viewBody=$("#viewBody");
@@ -49,7 +49,7 @@ function bikeTemplate(bike) {
                 chooseBody.append(chooseRows);
             },
             error: function () {
-                alert('Something went wrong!');
+                // alert('Something went wrong!');
             }
         });
 
@@ -67,7 +67,7 @@ function bikeTemplate(bike) {
                 viewBody.append(myRows);
             },
             error: function () {
-                alert('Something went wrong!');
+                // alert('Something went wrong!');
             }
         });
     
@@ -90,7 +90,7 @@ $.ajax({
     
     },
     error: function () {
-        alert("Fill all the form fields!");
+        // alert("Fill all the form fields!");
     }
 });
 

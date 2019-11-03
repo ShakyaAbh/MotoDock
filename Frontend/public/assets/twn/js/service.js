@@ -3,7 +3,7 @@ $(function () {
 
         let base_url = 'http://localhost:3000/';
         
-        var y= getCookie('userCookie');
+        var y= localStorage.getItem('user');
     
         var queryString= window.location.href;
         var url= new URL(queryString);
@@ -36,7 +36,7 @@ $(function () {
                         chooseService.append(serviceRows);
                     },
                     error: function () {
-                        alert('Something went wrong!');
+                        // alert('Something went wrong!');
                     }
                 });
 

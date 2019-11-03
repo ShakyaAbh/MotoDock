@@ -102,7 +102,7 @@
         $('div.alert').slideDown('slow').delay(1500).slideUp('slow');
     </script>
    <script>
-        var y= getCookie('userCookie');
+        var y= localStorage.getItem('admin');
        
        let base_url = 'http://localhost:3000/';
        $.ajax({
@@ -122,7 +122,7 @@
            
            },
            error: function () {
-               alert("Fill all the form fields!");
+            //    alert("Fill all the form fields!");
            }
        });
        
@@ -140,7 +140,7 @@
        
        </script>
 
-<script src="/assets/twn/js/logout.js"></script>
+<script src="/assets/twn/js/admin_logout.js"></script>
 
 </body>
 </html>

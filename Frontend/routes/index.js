@@ -78,6 +78,9 @@ router.get('/admin/service', function(req, res, next) {
 router.get('/admin/mechanic', function(req, res, next) {
   res.render('admin/mechanic', { title: 'Express' });
 });
+router.get('/admin/login', function(req, res, next) {
+  res.render('admin/login', { title: 'Express' });
+});
 
 
 module.exports = router;

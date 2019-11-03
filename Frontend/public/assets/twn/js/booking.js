@@ -3,7 +3,7 @@ $(function () {
 
     let base_url = 'http://localhost:3000/';
     
-    var y= getCookie('userCookie');
+    var y= localStorage.getItem('user');
 
     let bookingBody=$("#booking");
     function bookingTemplate(booking) {
@@ -31,7 +31,7 @@ $(function () {
                     bookingBody.append(bookingRows);
                 },
                 error: function () {
-                    alert('Something went wrong!');
+                    // alert('Something went wrong!');
                 }
             });
 

@@ -48,7 +48,7 @@ $(function () {
                         bookingBody.append(bookingRows);
                     },
                     error: function () {
-                        alert('Something went wrong!');
+                        // alert('Something went wrong!');
                     }
                 });
     
@@ -87,7 +87,7 @@ $(function () {
                 
             },
             error: function () {
-                alert("Fill all the form fields!");
+                // alert("Fill all the form fields!");
             }
         });
          
@@ -112,7 +112,7 @@ $(function () {
                     tblBody.append(myRows);
                 },
                 error: function () {
-                    alert('Something went wrong!');
+                    // alert('Something went wrong!');
                 }
             });
 
