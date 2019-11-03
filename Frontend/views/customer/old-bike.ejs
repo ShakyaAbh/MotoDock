@@ -1,0 +1,286 @@
+
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Add New Bike - Moto Dock</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+            <link rel="stylesheet" type="text/css" href="/assets/twn/frontend/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald|Titillium+Web" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/assets/twn/customer_dashboard/css/style.css">
+        <link rel="stylesheet" type="text/css" href="/assets/twn/customer_dashboard/css/dashboard.css">
+        <script type="text/javascript" src="/assets/twn/frontend/js/jquery-3.2.1.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="/assets/twn/parsley/parsley.css">
+    <style>
+        #block {
+            display: none;
+            width: 100%;
+        }
+
+        .selected {
+            display: inherit !important;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="/assets/twn/css/bootstrap-datetimepicker.min.css">
+    </head>
+<body>
+    <% include ../partials/loggedInMenu %> 
+
+<div class="notificaitionDetail" id="notificationDetails">
+</div>
+<% include ../partials/sidebar.ejs %>  
+
+<div class="col-lg-10 ritghPosData">
+    <div class="dashData whiteSpaceData dashBike">
+        <h5>Add New Bike</h5>
+                                                                                                                                                                                                                                                                                                <div class="userProfileBack2">
+            <form method="POST"  id="form" role="form" enctype="multipart/form-data">
+
+            <div class="form-group row">
+<div class="col-md-6">
+<label for="company"> Company*</label>
+                    <select  class="form-control col-xs-10 col-sm-12" required="required" id="company">
+                        <option value="" selected="selected">Select Company</option>
+                        <option value="Aprilia">Aprilia</option>
+                        <option value="Bajaj">Bajaj</option>
+                        <option value="Beneli">Beneli</option>
+                        <option value="Crossfire">Crossfire</option>
+                        <option value="Ducati">Ducati</option>
+                        <option value="Hartford">Hartford</option>
+                        <option value="Hero">Hero</option>
+                        <option value="Hero Honda">Hero Honda</option>
+                        <option value="Honda">Honda</option>
+                        <option value="KTM">KTM</option>
+                        <option value="Mahindra">Mahindra</option>
+                        <option value="Royal Enfield">Royal Enfield</option>
+                        <option value="Scomadi">Scomadi</option>
+                        <option value="Suzuki">Suzuki</option>
+                        <option value="TVS">TVS</option>
+                        <option value="Vespa">Vespa</option>
+                        <option value="Yamaha">Yamaha</option>
+                    </select>
+</div>
+
+<div class="col-md-6">
+<label for="model"> Model*</label>
+                    <select class="form-control col-xs-10 col-sm-12" required="required" id="model"><option value="" selected="selected">Select Model</option>
+                        <option value="Aprilia SR125">Aprilia SR125</option>
+                        <option value="Aprilia SR150">Aprilia SR150</option>
+                        <option value="Aprilia SR150 Race">Aprilia SR150 Race</option>
+                        <option value="Aprilia RS 125">Aprilia RS 125</option>
+                        <option value="Aprilia Tuono">Aprilia Tuono</option>
+                        <option value="Aprilia etx150">Aprilia etx150</option>
+                    
+                    </select>
+</div>
+</div>
+
+<div class="form-group row">
+<div class="col-md-6">
+<label for="company"> Registration No.*</label>
+<input  id="bike_registration_no" placeholder="BA 34 PA 2356" class="form-control col-xs-10 col-sm-12" required="required" id="bike_registration_no" type="text">
+<div id="error" style="color: red;"></div>
+
+</div>
+
+<div class="col-md-6">
+<label for="company"> Color*</label>
+<input  id="bike_color" placeholder="Eg: Red" class="form-control col-xs-10 col-sm-12" required="required" id="bike_color" type="text">
+</div>
+
+
+
+</div>
+
+
+<div class="form-group row">
+<div class="col-md-6">
+<label for="company"> Insurence Policy</label>
+<input  id="insurence_policy" placeholder="Insurance Policy (Optional)" class="form-control col-xs-10 col-sm-12" id="insurence_policy" type="text">
+</div>
+
+<div class="col-md-6">
+<label for="company"> Insurence Renew Date</label>
+<input  id="insurence_expire_on" placeholder="Insurance Date (Eg. June 01 2018) (Optional)" class="form-control col-xs-10 col-sm-12"  id="insurence_expire_on" type="date">
+</div>
+</div>
+
+<div class="form-group row">
+<div class="col-md-6">
+<label for="company"> Manufacture Year</label>
+<input  id="year" placeholder="Manufacture Year (Optional)" class="form-control col-xs-10 col-sm-12" id="year" type="text">
+</div>
+
+<div class="col-md-6">
+<label for="company"> Picture</label><br/>
+<form  enctype="multipart/form-data" id="fileUploadForm">
+                                <input class="form-control txt-field" type="file" name="fileToUpload" id="fileToUpload" />
+                              </form>   
+</div>
+</div>                            <div class="form-group row">
+                <div class="col-md-12">
+                    <div class="updateButton2">
+                        <button class="btn" name="submit" id="bike-add" type="submit"
+                                style="width: 120px;">Save
+                        </button>
+
+                        
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+            integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script src="/assets/twn/js/smooth-scroll.js"></script>
+    <script src="/assets/twn/js/scripts.js"></script>
+    <script src="/assets/twn/js/logout.js"></script>
+
+    <script>
+    $(function () {
+
+        let base_url = 'http://localhost:3000/';
+        let imageFile = '';
+
+
+      
+    
+        $("#fileToUpload").on('change', function () {
+            let formData = new FormData();
+            let files = $("#fileToUpload").get(0).files;
+            if (files.length > 0) {
+                formData.append("imageFile", files[0]);
+            }
+            // $("#add-hero").prop("disabled", true);
+            $.ajax({
+                type: 'POST',
+                url: base_url + 'upload',
+                contentType: false,
+                cache: false,
+                processData: false,
+                data: formData,
+                success: function (data) {
+                    imageFile = data.filename;
+                    // $("#add-hero").prop("disabled", false);
+                },
+                error: function () {
+                    alert("Image upload failed!");
+                }
+            });
+        });
+
+     
+        var user_id= localStorage.getItem('user');
+        $.ajax({
+    type: 'GET',
+    url: base_url + 'users/'+ user_id,
+    success: function (user) {
+       
+
+            document.getElementById("profile_image").src = base_url+'uploads/'+ user.image;
+            document.getElementById("dashboard_image").src = base_url+'uploads/'+ user.image;
+            document.getElementById("dash_name").innerHTML=user.fullName;
+       
+
+
+
+
+    
+    },
+    error: function () {
+        alert("Fill all the form fields!");
+    }
+});
+    
+        $("#bike-add").on('click', function(e){
+            e.preventDefault();
+            let bike = {
+                company: $("#company").val(),
+                model:$('#model').val(),
+                registrationNumber:$('#bike_registration_no').val(),
+                color:$('#bike_color').val(),
+                insurancePolicy:$('#insurence_policy').val(),
+                insuranceRenew:$('#insurence_expire_on').val(),
+                manufactureYear:$('#year').val(),
+                image: imageFile,
+                user: user_id
+            };
+            $.ajax({
+                type: 'POST',
+                url: base_url + 'bikes',
+                data: bike,
+                success: function (bike) {
+                    alert("New Bike Added");
+                    imageFile = '';
+                    $('#form').trigger('reset');
+                    location.reload();
+    
+                    
+                },
+                error: function () {
+                    alert("Fill all the form fields!");
+                }
+            });
+             
+            
+    
+        });
+
+
+   
+    
+
+       
+    
+       
+    });
+    function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+function eraseCookie(name) {   
+            document.cookie = name+'=; Max-Age=-99999999;';  
+        }
+     
+    
+    </script>
+  
+
+
+</body>
+</html>
+
+

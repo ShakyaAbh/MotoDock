@@ -1,0 +1,109 @@
+<script>
+ var y= localStorage.getItem('user');
+
+let base_url = 'http://localhost:3000/';
+let viewBody=$("#viewBody");
+let chooseBody=$("#chooseBody");
+
+
+function bikeTemplate(bike) {
+            let bikeRow = 
+            '<div class="col-lg-3">'+
+                '<div class="myBike">'+
+                   '<div class="bikeImgDash">'+
+                    '<img src="'+base_url+'uploads/'+ bike.image+'"class="img img-responsive">'+
+                               '</div>'+
+                                                '<h5>'+bike.model+'</h5>'+
+                                                '<p>'+bike.registrationNumber+'</p>'+
+                                                
+                                            '</div>'+
+                                        '</div>';
+            return bikeRow;
+        }
+
+
+        function chooseTemplate(choose) {
+            let chooseRow = 
+            '<div class="col-lg-3">'+
+                '<div class="myBike">'+
+                   '<div class="bikeImgDash">'+
+                    '<img src="'+base_url+'uploads/'+ choose.image+'"class="img img-responsive">'+
+                               '</div>'+
+                                                '<h5>'+choose.model+'</h5>'+
+                                                '<p>'+choose.registrationNumber+'</p>'+
+                                                '<a href="http://localhost:3001/customer/service?id='+choose._id+'" class="btn">Select</a>'+
+                                                
+                                            '</div>'+
+                                        '</div>';
+            return chooseRow;
+        }
+
+        $.ajax({
+            type: 'GET',
+            url: base_url + 'bikes/user?user='+y,
+            success: function (chooses) {
+                let chooseRows = [];
+                $.each(chooses, function (index, choose) {
+                    chooseRows.push(chooseTemplate(choose));
+                });
+                chooseBody.append(chooseRows);
+            },
+            error: function () {
+                // alert('Something went wrong!');
+            }
+        });
+
+        
+
+
+        $.ajax({
+            type: 'GET',
+            url: base_url + 'bikes/user?user='+y,
+            success: function (bikes) {
+                let myRows = [];
+                $.each(bikes, function (index, bike) {
+                    myRows.push(bikeTemplate(bike));
+                });
+                viewBody.append(myRows);
+            },
+            error: function () {
+                // alert('Something went wrong!');
+            }
+        });
+    
+
+$.ajax({
+    type: 'GET',
+    url: base_url + 'users/'+ y,
+    success: function (user) {
+       
+
+            document.getElementById("profile_image").src = base_url+'uploads/'+ user.image;
+            document.getElementById("dashboard_image").src = base_url+'uploads/'+ user.image;
+            document.getElementById("dash_name").innerHTML=user.fullName;
+
+       
+
+
+
+
+    
+    },
+    error: function () {
+        // alert("Fill all the form fields!");
+    }
+});
+
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+
+</script>

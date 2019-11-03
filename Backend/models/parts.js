@@ -8,25 +8,13 @@ var partsSchema = new Schema({
         type: String,
         required: true
     },
-    modelNumber: {
-        type: String,
-        required: true
-    },
-    entryDate: {
-        type: String,
-        required: true
-    },
-    quantity: {
+    price: {
         type: Number,
         required: true
     },
-    details: {
+    image:{
         type: String,
-        required: true
-    },
-    company: {
-        type: String,
-        required: true
+        default:''
     }
 }, {
         timestamps: true

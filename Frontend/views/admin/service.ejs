@@ -1,0 +1,210 @@
+
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Services - Third Wheel </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="Yeszlw3MyEqwctUKz6fHVtRmweyCXvOHfyjK7GZ7">
+            <link rel="stylesheet" type="text/css" href="https://thirdwheel.com.np/assets/twn/frontend/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald|Titillium+Web" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://thirdwheel.com.np/assets/twn/customer_dashboard/css/style.css">
+        <link rel="stylesheet" type="text/css" href="https://thirdwheel.com.np/assets/twn/customer_dashboard/css/dashboard.css">
+        <script type="text/javascript" src="https://thirdwheel.com.np/assets/twn/frontend/js/jquery-3.2.1.min.js"></script>
+            </head>
+<body>
+        <% include ../partials/adminMenu %>  
+
+<div class="notificaitionDetail" id="notificationDetails">
+</div>
+
+    <div class="clear"></div>
+
+    <% include ../partials/adminBar.ejs %>  
+    <div class="col-lg-10 ritghPosData">
+            <div class="dashData whiteSpaceData">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="bikeD">
+                                <h5>Request Services</h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="chooseService">
+                            <div class="col-lg-3">
+                                    <div class="myBike">
+                                        <i class="fas fa-plus"
+                                           style="font-size: 90px; padding: 25px 0; color: #0b1539;"></i>
+                                        <h6><br/></h6>
+                                        <button data-toggle="modal"
+                                        data-target="#serviceModal"
+                                           class="btn">Add New
+                                        </button>
+                                    </div>
+                                </div>                                                          
+                                                              
+                                                    </div>
+                </div>
+        
+            </div>
+        </div>
+          
+            </div>
+        </div>
+    </div>
+    <!-- Add Service Modal -->
+    <div class="modal fade" id="serviceModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Add New Service</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form method="POST"  accept-charset="UTF-8"
+                  id="profile-form"
+                  class="form-horizontal" role="form" enctype="multipart/form-data" data-parsley-validate="">
+                <input type="hidden" name="_token" value="vhOWl4SOemgbbapeco5FZaCRhqFDRjPy2CKJDbkP">
+                <div class="row">
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" id="name" 
+                               placeholder="Service Name" required >
+    
+                        <input class="form-control"  type="number" id="price" placeholder="price">
+    
+    
+                               <form  enctype="multipart/form-data" id="fileUploadForm">
+                                <input class="form-control txt-field" type="file" name="fileToUpload" id="fileToUpload" />
+                              </form> 
+    
+                    </div>
+                </div>
+    
+                <div class="updateButton float-right">
+                     <button type="submit" id="add-service" class="btn">
+                        Save
+                    </button>
+                </div>
+            </form>
+        </div>
+        </div>
+        </div>
+        </div>
+
+            <!-- View Service Modal -->
+    <div class="modal fade" id="viewModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">View Service</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form method="POST"  accept-charset="UTF-8"
+                  id=""
+                  class="form-horizontal" role="form" enctype="multipart/form-data" data-parsley-validate="">
+                
+                <div class="row">
+                    <div class="col-md-12">
+                            <input type="hidden" id="service_id">
+                        <input type="text" class="form-control" id="vname" 
+                               placeholder="Service Name" required >
+    
+                        <input class="form-control"  type="number" id="vprice" placeholder="price">
+    
+    
+                               
+                    </div>
+                </div>
+    
+                <div class="updateButton float-right">
+                     <button type="submit" id="update-service" class="btn">
+                        Update
+                    </button>
+                </div>
+            </form>
+        </div>
+        </div>
+        </div>
+        </div>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+            integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script src="https://thirdwheel.com.np/assets/twn/js/smooth-scroll.js"></script>
+    <script src="https://thirdwheel.com.np/assets/twn/js/scripts.js"></script>
+    <script src="/assets/twn/js/servicelist.js"></script>
+    
+ 
+    <script>
+        // $('div.alert').delay(4000).slideUp(100);
+        $('div.alert').slideDown('slow').delay(1500).slideUp('slow');
+    </script>
+   <script>
+        var y= getCookie('userCookie');
+       
+       let base_url = 'http://localhost:3000/';
+       $.ajax({
+           type: 'GET',
+           url: base_url + 'users/'+ y,
+           success: function (user) {
+              
+       
+                   document.getElementById("profile_image").src = base_url+'uploads/'+ user.image;
+                   document.getElementById("dashboard_image").src = base_url+'uploads/'+ user.image;
+                   document.getElementById("dash_name").innerHTML=user.fullName;
+              
+       
+       
+       
+       
+           
+           },
+           error: function () {
+            //    alert("Fill all the form fields!");
+           }
+       });
+       
+       function getCookie(name) {
+           var nameEQ = name + "=";
+           var ca = document.cookie.split(';');
+           for(var i=0;i < ca.length;i++) {
+               var c = ca[i];
+               while (c.charAt(0)==' ') c = c.substring(1,c.length);
+               if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+           }
+           return null;
+       }
+       
+       
+       </script>
+
+
+
+</body>
+</html>

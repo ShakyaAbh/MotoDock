@@ -1,0 +1,165 @@
+<script type="text/javascript" src="/assets/twn/frontend/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/assets/twn/frontend/js/aos.js"></script>
+<script src="/assets/twn/frontend/js/owl.carousel.min.js"></script>
+<script src="/assets/twn/frontend/js/smooth-scroll.js"></script>
+<script src="/assets/twn/frontend/js/scripts.js"></script>
+
+<script>
+    AOS.init({
+        duration: 500
+    });
+</script>
+<script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    // window.onscroll = function () {
+    //     scrollFunction()
+    // };
+
+    // function scrollFunction() {
+    //     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    //         document.getElementById("myBtn").style.display = "block";
+    //     } else {
+    //         document.getElementById("myBtn").style.display = "none";
+    //     }
+    // }
+
+    // When the user clicks on the button, scroll to the top of the document
+    // function topFunction() {
+    //     document.body.scrollTop = 0;
+    //     document.documentElement.scrollTop = 0;
+    //
+    // }
+</script>
+
+
+<script>
+    $(document).ready(function () {
+        $('.submit').click(function () {
+            var url = 'https://thirdwheel.com.np/subscribe';
+            var email = $('#sub-email').val();
+            // if (email == '') {
+            //     $('.email-msg').css('display', 'inline-block').html("<p style='color: red;'>Email cannot be empty!</p>")
+            //         .delay(3000).fadeOut();
+            //     return;
+            // }
+            if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))) {
+                $('.email-msg').css('display', 'inline-block').html("<p style='color: red;'>Invalid Email!</p>")
+                    .delay(3000).fadeOut();
+                return;
+            }
+            $.ajax({
+                type: "POST",
+                url: url,
+                headers: {
+                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                 },
+                data: {'email': email, '_token': 'YiVjoFc8MKwBhzx5o2dRr33Eqgu4U9Kz2Ka9BPVf'},
+                success: function (data) {
+                    $('#sub-email').val('');
+                    $('.email-msg').css('display', 'inline-block').html("<p>" + data.email + "</p>")
+                        .delay(3000).fadeOut();
+                },
+                error: function (data) {
+                    $('#sub-email').val('');
+                    var errors = data.responseJSON;
+                    $('.email-msg').css('display', 'inline-block').html("<p style='color: red;'>" + errors['Email already exist!'][0] + "</p>")
+                        .delay(3000).fadeOut();
+                }
+            });
+        });
+    });
+</script>
+<script>
+    $('div.alert').delay(2000).slideUp(100);
+</script>
+<script>
+    $(document).ready(function () {
+        $('.alert-info').click(function () {
+            $(".notificationAlert").hide();
+        });
+    });
+</script>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#myModal').modal('show');
+    });
+</script>
+<script>
+    $("select[name='vcompany_id']").on('change', function () {
+        var vcompany_id = $(this).val();
+        var token = $("input[name='_token']").val();
+        console.log(vcompany_id, token);
+
+        $.ajax({
+            url: "https:\/\/thirdwheel.com.np" +"/select-models",
+            method: 'GET',
+            data: {vcompany_id: vcompany_id, _token: token},
+            success: function (data) {
+                $("select[name='vmodel_id']").html('');
+                $("select[name='v" + "" + "model_id']").html(data.options);
+            }
+        });
+    });
+
+</script>
+
+<script type="text/javascript">
+    $('.brandLogoSlide').owlCarousel({
+        center: true,
+        loop: true,
+        margin: 30,
+        nav: false,
+        dots: true,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 3000,
+        autoplaySpeed: 3000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
+            },
+            1100: {
+                items: 6
+            },
+            1500: {
+                items: 7
+            },
+            2000: {
+                items: 7
+            }
+        }
+    });
+    $('.rijonSlider').owlCarousel({
+        center: true,
+        loop: true,
+        margin: 30,
+        nav: false,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 3
+            },
+            2000: {
+                items: 3
+            }
+        }
+    });
+</script>

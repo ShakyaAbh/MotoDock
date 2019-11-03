@@ -10,7 +10,7 @@ var authenticate = require('./authenticate');
 var verify = require('./verify');
 var cors = require('cors');
 
-const url = 'mongodb://localhost:27017/mydb';
+const url = 'mongodb://localhost:27017/motodock';
 const connect = mongoose.connect(url, {
     useNewUrlParser: true,
     useCreateIndex: true
@@ -23,6 +23,11 @@ connect.then((db) => {
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var partsRouter = require('./routes/parts');
+var mechanicsRouter = require('./routes/mechanics');
+var bikesRouter = require('./routes/bikes');
+
+var uploadRouter = require('./routes/upload');
+var bookingRouter = require('./routes/booking');
 
 
 var app = express();
@@ -46,15 +51,21 @@ app.use(passport.session());
 
 
 app.use('*', cors({
-    origin: 'http://localhost:5500',
+    origin: 'http://localhost:3001',
     credentials: true
 }));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use(verify.user);
+//app.use(verify.user);
 
-app.use(verify.admin);
+//app.use(verify.admin);
 app.use('/parts', partsRouter);
+app.use('/mechanics', mechanicsRouter);
+app.use('/bikes', bikesRouter);
+
+app.use('/bookings', bookingRouter);
+
+app.use('/upload', uploadRouter);
 
 module.exports = app;
