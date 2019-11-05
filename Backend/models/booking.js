@@ -30,7 +30,7 @@ var bookingsSchema = new Schema({
     mechanic: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Mechanic',
-        default:"5dadaf85f39b4260fce409ac"
+        default:"5dbff4eadd9d4720c8b20996"
     },
 
     date: {
